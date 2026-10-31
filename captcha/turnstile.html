@@ -11,8 +11,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="robots" content="noindex">
   <title>Wizelift</title>
-  <link rel="stylesheet" href="/captcha/turnstile.css">
-  <script src="/captcha/turnstile.js"></script>
+  <!-- The same policy the wizelift.com header sends (website/_headers), for the GitHub
+       Pages copy, which cannot send headers. frame-ancestors only works as a header. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <!-- Relative: the page is served at /captcha/ on wizelift.com and at
+       /wizelift-website/captcha/ on GitHub Pages (src/auth/captcha.ts). -->
+  <link rel="stylesheet" href="turnstile.css">
+  <script src="turnstile.js"></script>
 </head>
 <body>
   <div id="widget"></div>
