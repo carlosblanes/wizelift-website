@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head><script>(function(){var p=location.pathname.replace(/^\/wizelift-website/,"");location.replace("https://wizelift.com"+p+location.search+location.hash);})();</script><link rel="canonical" href="https://wizelift.com/404">
+<head><script>(function(){if(!/^\/community\/user\/[0-9a-f-]{36}\/?$/i.test(location.pathname))return;document.documentElement.style.visibility="hidden";fetch("/community-user.html").then(function(r){return r.text();}).then(function(t){document.open();document.write(t);document.close();});})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Not found — Wizelift</title>
