@@ -34,6 +34,9 @@
   window.wizeliftTurnstileLoaded = function () {
     widgetId = window.turnstile.render('#widget', {
       sitekey: sitekey,
+      /* The sign-up gateway checks this (supabase/functions/_shared/turnstile.ts),
+         so a token from another widget on this hostname is refused (3-nov-2026). */
+      action: 'signup',
       /* Invisible unless Cloudflare needs a tap; then the app opens the view. */
       appearance: 'interaction-only',
       theme: 'auto',
