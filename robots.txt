@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
-Disallow: /checkout.html
+# /checkout covers /checkout and /checkout.html (prefix match).
+Disallow: /checkout
+# The signed-in web app and the sign-up captcha are not pages to index.
+Disallow: /app/
+Disallow: /captcha/
 
 Sitemap: https://wizelift.com/sitemap.xml
