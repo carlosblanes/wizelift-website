@@ -1,15 +1,24 @@
 <!doctype html>
+<!--
+  The web app moved to https://wizelift.app (4-nov-2026). This page replaces the
+  old bundle at wizelift.com/app/: moved.js wipes the old session from this
+  origin's storage, then forwards to the same path on wizelift.app. Users sign
+  in again there (a session cannot cross origins, and should not).
+  Hand-written; not built by wizelift-webapp or website-src (whose refresh
+  rsync excludes app/).
+-->
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob: https://nkvmnwehztaovkldfprq.supabase.co; connect-src https://nkvmnwehztaovkldfprq.supabase.co wss://nkvmnwehztaovkldfprq.supabase.co; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'" />
-    <meta name="referrer" content="no-referrer" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wizelift</title>
-    <script type="module" crossorigin src="./assets/index-DVlx0nKw.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-I867Y5ib.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wizelift</title>
+  <script src="moved.js"></script>
+</head>
+<body>
+  <p>Wizelift on the web is now at <a id="to" href="https://wizelift.app/">wizelift.app</a>.</p>
+  <p lang="es">Wizelift en la web está ahora en <a href="https://wizelift.app/">wizelift.app</a>.</p>
+</body>
 </html>
