@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
-# /checkout covers /checkout and /checkout.html (prefix match).
+# /checkout covers /checkout and /checkout.html (prefix match); /es/checkout is its Spanish copy.
 Disallow: /checkout
+Disallow: /es/checkout
 # The signed-in web app and the sign-up captcha are not pages to index.
 Disallow: /app/
 Disallow: /captcha/
