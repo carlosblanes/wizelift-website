@@ -497,8 +497,12 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <td>While you keep both your consent and your account. If you withdraw consent, you can delete it immediately</td>
 </tr>
 <tr>
-<td>Record of your consents and of the terms and policy versions you accepted; coach links, what you shared with each coach and the record of their downloads</td>
+<td>Coach links, what you shared with each coach and the record of their downloads</td>
 <td>While you have the account. They are deleted with it</td>
+</tr>
+<tr>
+<td>Record of your consents and of the terms and policy versions you accepted</td>
+<td>While you have the account. When you delete it, we keep this record for <strong>3 years</strong> as proof of what you agreed to and when (GDPR art. 7(1); that is how long a complaint about it can be brought, LOPDGDD art. 72): without your account id, and with your email replaced by a one-way code made with a secret key, so we can only match it if you write to us from that address. It is then deleted automatically</td>
 </tr>
 <tr>
 <td>Accounts nobody uses</td>
@@ -522,11 +526,23 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 </tr>
 <tr>
 <td>Backups</td>
-<td>Our database provider keeps no backups on our plan, so we make our own: every night, an encrypted copy (AES-256) of the database, kept on an encrypted disk under our control in Spain. We keep the <strong>30 most recent copies</strong>, normally about 30 days; if a night is missed, the oldest copy is kept a little longer. Data you delete disappears from the backups when the last copy that contains it is replaced. We would use a copy only to recover from a failure. The computer we work from is itself backed up with Apple Time Machine, encrypted, on that same disk; it may hold working copies, for example a data export you asked us for</td>
+<td>Our database provider keeps no backups on our plan, so we make our own: every night, an encrypted copy (AES-256) of the database, kept on an encrypted disk under our control in Spain. We keep the <strong>30 most recent copies</strong>, normally about 30 days; if a night is missed, the oldest copy is kept a little longer. Data you delete disappears from the backups when the last copy that contains it is replaced. We would use a copy only to recover from a failure, and before using one we delete again every account deleted since that copy was made: for this we keep a list of the ids of deleted accounts and the date, and nothing else, for as long as we keep backups that could contain them. The computer we work from is itself backed up with Apple Time Machine, encrypted, on that same disk; it may hold working copies, for example a data export you asked us for. Time Machine keeps hourly copies for 24 hours, daily copies for the past month and weekly copies until its disk is full, so such a working copy can stay there for <strong>longer than 30 days</strong>. We never restore personal data from Time Machine</td>
 </tr>
 <tr>
 <td>Content reports and moderation decisions</td>
-<td>Open reports until they are decided; then 12 months from the decision, deleted automatically every night</td>
+<td>Open reports until they are decided, also if the person who reported deletes their account (the report then stays without their account); then 12 months from the decision. The statement of reasons sent to the person whose content was moderated: 12 months after the period to appeal it ends. Both deleted automatically every night</td>
+</tr>
+<tr>
+<td>Workout photos</td>
+<td>Deleted with their workout. A photo left behind (for example when a workout was deleted without signal) is removed by a nightly job once it is a week old</td>
+</tr>
+<tr>
+<td>Shop checkouts that were never paid</td>
+<td>30 days, deleted automatically every night</td>
+</tr>
+<tr>
+<td>Coach invitation codes, and the one-time codes used to connect Strava</td>
+<td>1 day after they expire or are cancelled, deleted automatically every night</td>
 </tr>
 <tr>
 <td>Support emails and rights requests</td>
@@ -534,7 +550,7 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 </tr>
 <tr>
 <td>Contact and gym forms</td>
-<td>12 months, unless it becomes a business relationship</td>
+<td>12 months, unless it becomes a business relationship. They reach us by email; we delete them from the mailbox by hand, checking it once a month</td>
 </tr>
 <tr>
 <td>Waitlist and newsletter</td>
@@ -552,7 +568,8 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <h3 id="en-13-1">In the app</h3>
 <ul>
 <li><strong>Your session</strong> is kept in the system's secure store (Keychain on iPhone, Keystore on Android). It has no inactivity limit (§12): it ends when you sign out or delete the account.</li>
-<li>The app keeps <strong>a temporary copy</strong> of your data and of sets waiting to upload on your phone, so it works offline. That copy is deleted when you sign out or delete your account. Sets waiting to upload are kept on sign-out so you do not lose a workout; they are deleted when you delete your account.</li>
+<li>The app keeps <strong>a temporary copy</strong> of your data and of sets waiting to upload on your phone, so it works offline. That copy is deleted when you sign out or delete your account. Sets and set notes waiting to upload are kept on sign-out so you do not lose a workout (each with the account it belongs to, and sent only for that account); they are deleted when you delete your account. Set notes saved by older versions of the app, which did not record whose they were, are deleted at sign-out.</li>
+<li>The app also keeps a few small records on the phone: why a save failed and when the app was locked or opened (to diagnose lost sets), which workouts it already wrote to Apple Health or Health Connect, and the state of a health-data import. They are deleted when you delete your account (or uninstall the app). A switch that remembers you disconnected Health stays on the phone, holding no data, so the next account on that phone does not read your Health data.</li>
 <li><strong>Health / Health Connect readings</strong> are stored only on your phone (see §5) and deleted on sign-out.</li>
 <li>The app uses <strong>no cookies, no advertising identifiers and no cross-app tracking.</strong></li>
 <li>If you uninstall the app, the system deletes everything stored in it.</li>
@@ -629,6 +646,10 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <td><strong>Settings → Your data → Export every set as CSV</strong></td>
 </tr>
 <tr>
+<td>Download my raw sensor signal (a .zip of CSV files)</td>
+<td><strong>Settings → Your data → Export raw sensor data</strong></td>
+</tr>
+<tr>
 <td>Correct my profile or body data</td>
 <td>Your profile (top of <strong>Settings</strong>), <strong>Settings → Account</strong> and <strong>Settings → Body &amp; strength</strong></td>
 </tr>
@@ -645,7 +666,7 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <td><strong>Settings → Your data → Delete my health data</strong></td>
 </tr>
 <tr>
-<td>Delete my workouts but keep the account</td>
+<td>Delete my workouts but keep the account (every workout with its sets, sensor signal, notes, tags and photos; ML recordings; and the 1RMs, level and badges worked out from them. Your account, profile, settings, plan, weigh-ins and body measurements stay)</td>
 <td><strong>Settings → Your data → Delete all training data</strong></td>
 </tr>
 <tr>
@@ -654,8 +675,8 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 </tr>
 </tbody>
 </table></div>
-<p><strong>What "Delete account" deletes:</strong> your account, profile, workouts, sets and sensor signal, photos, comments, likes, followers, notifications and settings. If Strava was connected, we revoke access. Coach links end at once. It is deleted immediately; it disappears from our backups within about 30 days (§12). Only shop orders are kept, for the legal period (§12), plus, without your name, the sets you did in someone else's workout (§7).</p>
-<p><strong>What the in-app export does not include yet:</strong> your email and date of birth as held in the account, the full sensor signal, and your photo files. If you want them, ask at the privacy email and we will send them.</p>
+<p><strong>What "Delete account" deletes:</strong> your account, profile, workouts, sets and sensor signal, photos, comments, likes, followers, notifications and settings. If Strava was connected, we revoke access. Coach links end at once. It is deleted immediately; it disappears from our backups within about 30 days (§12). Only these are kept: shop orders, for the legal period (§12); without your name, the sets you did in someone else's workout and the sets a partner logged for you (§7); content reports you filed that are still open, without your account (§12); and, for 3 years, the record of what you consented to, without your account id (§12).</p>
+<p><strong>What the in-app export includes:</strong> everything above it lists, including your account data (email, sign-in dates and methods, two-step verification), the devices where you are signed in (with their IP address), the reports you filed, your coach links and what each coach downloaded, the sets a partner logged for you, and links to your photo and profile picture files, valid for 24 hours. The raw sensor signal is a separate download (above), because of its size.</p>
 <p><strong>If you no longer have the app installed</strong>, you can request account deletion as explained at <a href="https://wizelift.com/delete-account.html" target="_blank" rel="noopener">https://wizelift.com/delete-account.html</a>.</p>
 <h3 id="en-14-2">By email</h3>
 <p>Email <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a> from your account's email address, saying which right you want to use. If we cannot confirm it is you, we will ask for the minimum needed to check. We will reply within <strong>one month at most</strong>. If the request is complex, that can be extended by two more months, and we will tell you within the first month. It is free.</p>
@@ -1194,8 +1215,12 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <td>Mientras mantengas el consentimiento y la cuenta. Si retiras el consentimiento, puedes borrarlos al momento</td>
 </tr>
 <tr>
-<td>Registro de tus consentimientos y de las versiones de las condiciones y de esta política que aceptaste; vínculos con entrenadores, lo que compartiste con cada uno y el registro de sus descargas</td>
+<td>Vínculos con entrenadores, lo que compartiste con cada uno y el registro de sus descargas</td>
 <td>Mientras tengas la cuenta. Se borran con ella</td>
+</tr>
+<tr>
+<td>Registro de tus consentimientos y de las versiones de las condiciones y de esta política que aceptaste</td>
+<td>Mientras tengas la cuenta. Al borrarla, guardamos este registro <strong>3 años</strong> como prueba de qué aceptaste y cuándo (art. 7.1 RGPD; es el plazo en que puede reclamarse por ello, art. 72 LOPDGDD): sin el identificador de tu cuenta y con tu email sustituido por un código de un solo sentido hecho con una clave secreta, de modo que solo podemos relacionarlo contigo si nos escribes desde esa dirección. Después se borra automáticamente</td>
 </tr>
 <tr>
 <td>Cuentas que nadie usa</td>
@@ -1219,11 +1244,23 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 </tr>
 <tr>
 <td>Copias de seguridad</td>
-<td>Nuestro proveedor de base de datos no guarda copias en nuestro plan, así que las hacemos nosotros: cada noche, una copia cifrada (AES-256) de la base de datos, guardada en un disco cifrado bajo nuestro control en España. Guardamos las <strong>30 copias más recientes</strong>, normalmente unos 30 días; si una noche no se hace copia, la más antigua dura algo más. Lo que borras desaparece de las copias cuando se sustituye la última copia que lo contiene. Solo usaríamos una copia para recuperarnos de un fallo. El ordenador desde el que trabajamos tiene a su vez copia con Time Machine de Apple, cifrada, en ese mismo disco; puede contener copias de trabajo, por ejemplo una exportación de datos que nos pediste</td>
+<td>Nuestro proveedor de base de datos no guarda copias en nuestro plan, así que las hacemos nosotros: cada noche, una copia cifrada (AES-256) de la base de datos, guardada en un disco cifrado bajo nuestro control en España. Guardamos las <strong>30 copias más recientes</strong>, normalmente unos 30 días; si una noche no se hace copia, la más antigua dura algo más. Lo que borras desaparece de las copias cuando se sustituye la última copia que lo contiene. Solo usaríamos una copia para recuperarnos de un fallo, y antes de usarla volvemos a borrar todas las cuentas borradas desde que se hizo esa copia: para eso guardamos una lista con el identificador de cada cuenta borrada y la fecha, y nada más, mientras guardemos copias que puedan contenerlas. El ordenador desde el que trabajamos tiene a su vez copia con Time Machine de Apple, cifrada, en ese mismo disco; puede contener copias de trabajo, por ejemplo una exportación de datos que nos pediste. Time Machine guarda copias horarias durante 24 horas, diarias durante el último mes y semanales hasta que su disco se llena, así que una de esas copias de trabajo puede seguir ahí <strong>más de 30 días</strong>. Nunca restauramos datos personales desde Time Machine</td>
 </tr>
 <tr>
 <td>Denuncias de contenido y decisiones de moderación</td>
-<td>Las denuncias abiertas, hasta que se deciden; después, 12 meses desde la decisión, borradas automáticamente cada noche</td>
+<td>Las denuncias abiertas, hasta que se deciden, también si quien denunció borra su cuenta (la denuncia sigue, sin su cuenta); después, 12 meses desde la decisión. La declaración de motivos enviada a la persona cuyo contenido se moderó: 12 meses después de que acabe el plazo para recurrirla. Ambas se borran automáticamente cada noche</td>
+</tr>
+<tr>
+<td>Fotos de entrenos</td>
+<td>Se borran con su entreno. Una foto que se quede suelta (por ejemplo, si se borró un entreno sin cobertura) la quita un proceso nocturno cuando tiene una semana</td>
+</tr>
+<tr>
+<td>Pagos de la tienda que nunca se completaron</td>
+<td>30 días, borrados automáticamente cada noche</td>
+</tr>
+<tr>
+<td>Códigos de invitación de entrenador y códigos de un solo uso para conectar Strava</td>
+<td>1 día después de caducar o cancelarse, borrados automáticamente cada noche</td>
 </tr>
 <tr>
 <td>Emails de soporte y peticiones de derechos</td>
@@ -1231,7 +1268,7 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 </tr>
 <tr>
 <td>Formularios de contacto y de gimnasios</td>
-<td>12 meses, salvo que se convierta en una relación comercial</td>
+<td>12 meses, salvo que se convierta en una relación comercial. Nos llegan por email; los borramos del buzón a mano, revisándolo una vez al mes</td>
 </tr>
 <tr>
 <td>Lista de espera y boletín</td>
@@ -1249,7 +1286,8 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <h3 id="es-13-1">En la app</h3>
 <ul>
 <li><strong>Tu sesión</strong> se guarda en el almacén seguro del sistema (Llavero en iPhone, Keystore en Android). No tiene límite por inactividad (§12): termina cuando cierras sesión o borras la cuenta.</li>
-<li>La app guarda en tu móvil <strong>una copia temporal</strong> de tus datos y las series pendientes de subir, para que funcione sin conexión. Esa copia se borra al cerrar sesión o al borrar la cuenta. Las series pendientes de subir se conservan al cerrar sesión para no perder un entreno; se borran al borrar la cuenta.</li>
+<li>La app guarda en tu móvil <strong>una copia temporal</strong> de tus datos y las series pendientes de subir, para que funcione sin conexión. Esa copia se borra al cerrar sesión o al borrar la cuenta. Las series y las notas de series pendientes de subir se conservan al cerrar sesión para no perder un entreno (cada una con la cuenta a la que pertenece, y solo se envían para esa cuenta); se borran al borrar la cuenta. Las notas de series guardadas por versiones antiguas de la app, que no apuntaban de quién eran, se borran al cerrar sesión.</li>
+<li>La app guarda también algunos registros pequeños en el móvil: por qué falló un guardado y cuándo se bloqueó o abrió la app (para diagnosticar series perdidas), qué entrenos ya escribió en Salud de Apple o Health Connect y el estado de una importación de datos de salud. Se borran al borrar la cuenta (o al desinstalar la app). Un interruptor que recuerda que desconectaste Salud se queda en el móvil, sin ningún dato, para que la siguiente cuenta en ese móvil no lea tus datos de Salud.</li>
 <li>Las <strong>lecturas de Salud / Health Connect</strong> se guardan solo en tu móvil (ver §5) y se borran al cerrar sesión.</li>
 <li>La app <strong>no usa cookies, ni identificadores publicitarios, ni seguimiento entre apps.</strong></li>
 <li>Si desinstalas la app, el sistema borra todo lo que estaba guardado en ella.</li>
@@ -1326,6 +1364,10 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <td><strong>Ajustes → Tus datos → Exportar todas las series en CSV</strong></td>
 </tr>
 <tr>
+<td>Descargar la señal bruta de los sensores (un .zip de archivos CSV)</td>
+<td><strong>Ajustes → Tus datos → Exportar los datos brutos del sensor</strong></td>
+</tr>
+<tr>
 <td>Corregir mi perfil o mis datos del cuerpo</td>
 <td>Tu perfil (arriba en <strong>Ajustes</strong>), <strong>Ajustes → Cuenta</strong> y <strong>Ajustes → Cuerpo y fuerza</strong></td>
 </tr>
@@ -1342,7 +1384,7 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 <td><strong>Ajustes → Tus datos → Borrar mis datos de salud</strong></td>
 </tr>
 <tr>
-<td>Borrar mis entrenos sin cerrar la cuenta</td>
+<td>Borrar mis entrenos sin cerrar la cuenta (cada entreno con sus series, señal de sensores, notas, etiquetas y fotos; las grabaciones de ML; y los 1RM, el nivel y las insignias calculados a partir de ellos. Se quedan tu cuenta, tu perfil, tus ajustes, tu plan, tus pesajes y tus medidas corporales)</td>
 <td><strong>Ajustes → Tus datos → Borrar todos los datos de entreno</strong></td>
 </tr>
 <tr>
@@ -1351,8 +1393,8 @@ import{d as e,f as t,g as n,h as r,m as i,p as a,t as o}from"./Providers-o2yLnKf
 </tr>
 </tbody>
 </table></div>
-<p><strong>Qué borra «Borrar la cuenta»:</strong> tu cuenta, tu perfil, tus entrenos, tus series y la señal de los sensores, tus fotos, tus comentarios, «me gusta», seguidores, notificaciones y ajustes. Si tenías Strava conectado, revocamos el acceso. Los vínculos con entrenadores terminan al instante. Se borra al momento; de nuestras copias de seguridad desaparece en unos 30 días (§12). Solo se conservan los pedidos de la tienda durante el plazo legal (§12) y, sin tu nombre, las series que hiciste en el entreno de otra persona (§7).</p>
-<p><strong>Lo que la exportación de la app no incluye todavía:</strong> tu email y fecha de nacimiento tal como constan en la cuenta, la señal completa de los sensores y los archivos de tus fotos. Si los quieres, pídenoslos al email de privacidad y te los enviamos.</p>
+<p><strong>Qué borra «Borrar la cuenta»:</strong> tu cuenta, tu perfil, tus entrenos, tus series y la señal de los sensores, tus fotos, tus comentarios, «me gusta», seguidores, notificaciones y ajustes. Si tenías Strava conectado, revocamos el acceso. Los vínculos con entrenadores terminan al instante. Se borra al momento; de nuestras copias de seguridad desaparece en unos 30 días (§12). Solo se conserva esto: los pedidos de la tienda, durante el plazo legal (§12); sin tu nombre, las series que hiciste en el entreno de otra persona y las que un compañero registró para ti (§7); las denuncias que presentaste y siguen abiertas, sin tu cuenta (§12); y, durante 3 años, el registro de lo que consentiste, sin el identificador de tu cuenta (§12).</p>
+<p><strong>Lo que incluye la exportación de la app:</strong> todo lo que se enumera arriba, incluidos los datos de tu cuenta (email, fechas y formas de inicio de sesión, verificación en dos pasos), los dispositivos donde tienes la sesión iniciada (con su dirección IP), las denuncias que presentaste, tus vínculos con entrenadores y lo que descargó cada uno, las series que un compañero registró para ti y enlaces a los archivos de tus fotos y de tu foto de perfil, válidos 24 horas. La señal bruta de los sensores es una descarga aparte (arriba), por su tamaño.</p>
 <p><strong>Si no tienes la app instalada</strong>, puedes pedir que borremos tu cuenta como se explica en <a href="https://wizelift.com/delete-account.html?lang=es" target="_blank" rel="noopener">https://wizelift.com/delete-account.html</a>.</p>
 <h3 id="es-14-2">Por email</h3>
 <p>Escribe a <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a> desde el email de tu cuenta, diciendo qué derecho quieres ejercer. Si no podemos confirmar que eres tú, te pediremos lo mínimo necesario para comprobarlo. Te responderemos en <strong>un mes como máximo</strong>. Si la petición es compleja, ese plazo puede ampliarse dos meses más, y te avisaremos en el primer mes. Es gratis.</p>
