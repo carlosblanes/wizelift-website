@@ -1,4 +1,4 @@
-import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKcf.js";import{t as s}from"./Layout-CAh25Fa7.js";import{t as c}from"./LegalDoc-DFoA8yYl.js";var l=n(),u=r(),d=`  <p class="legal-lede">This policy exists in English and Spanish. If they differ, the Spanish version prevails.</p>
+import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-D9m0JnHl.js";import{t as s}from"./Layout-znVNUPiL.js";import{t as c}from"./LegalDoc-DLgyysWW.js";var l=n(),u=r(),d=`  <p class="legal-lede">This policy exists in English and Spanish. If they differ, the Spanish version prevails.</p>
   <nav class="legal-toc" aria-label="Contents">
     <h2>Contents</h2>
     <ol>
@@ -23,7 +23,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
     </ol>
   </nav>
 <p><strong>Applies to:</strong> the Wizelift app (iOS and Android), the Wizelift web app at <a href="https://wizelift.app/" target="_blank" rel="noopener">https://wizelift.app/</a> and the website <a href="https://wizelift.com/" target="_blank" rel="noopener">https://wizelift.com/</a>, including its shop.</p>
-<p><strong>Version 2026-11-05.</strong> What changed from the 2026-11-04 version: an optional consent to help improve rep counting (§3.2, §4, §12). From the 2026-10-15 version: coaches (§6.1), the web app (§13), our email providers (§10), backups and how long we keep each thing (§12), and the session and IP details (§3.2, §16).</p>
+<p><strong>Version 2026-11-05, revised 5 November 2026.</strong> The revision brings the text in line with what the app and our server do after a data-protection review: health consent now also governs height and sex, and withdrawing it stops their use everywhere at once (§3.1, §5, §6); the rep-counting answers go with that consent (§3.2, §12); newsletter and waitlist sign-ups need a ticked box and an emailed confirmation (§4, §12); what Strava receives (§10); coach downloads (§6.1); what the export includes (§14); how long we keep the list of deleted accounts and our own working copies (§12); age checks for older accounts (§15). It does not ask anything new of you. What changed from the 2026-11-04 version: an optional consent to help improve rep counting (§3.2, §4, §12). From the 2026-10-15 version: coaches (§6.1), the web app (§13), our email providers (§10), backups and how long we keep each thing (§12), and the session and IP details (§3.2, §16).</p>
 <p>This policy explains what data about you we use, why, who we share it with, how long we keep it and how you control it. We have tried to write it plainly. If anything is unclear, email us at <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a>.</p>
 <hr>
 <h2 id="en-1">1. Summary</h2>
@@ -101,12 +101,12 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td><strong>Body and health</strong></td>
-<td>Sex, body weight and its history, height, body-fat percentage, resting heart rate, estimated maxes (1RM) for the main lifts</td>
-<td>No. They need your explicit consent (see §5). The app works without them, but some calculations are less precise</td>
+<td>Body weight and its history, height, body-fat percentage, resting heart rate, sex</td>
+<td>No. They need your explicit consent (see §5). The app works without them, but some calculations are less precise. Without that consent we use none of them, sex included, in any calculation, comparison or leaderboard</td>
 </tr>
 <tr>
 <td><strong>Training</strong></td>
-<td>Exercises, sets, reps, loads, rest, session tags, max tests, workout notes, time zone, training plans</td>
+<td>Exercises, sets, reps, loads, rest, session tags, max tests and the estimated maxes (1RM) you enter for the main lifts, workout notes, time zone, training plans</td>
 <td>Yes, to use the core feature</td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <h3 id="en-3-2">3.2 Data generated when you use the app</h3>
 <ul>
 <li><strong>Phone sensor data.</strong> During a set, the app reads the accelerometer and gyroscope (about 100 readings per second) to calculate bar velocity, power, range of motion and stability for each rep. We store each rep's metrics and the set's motion signal in your account, so you can see each rep's chart later. This is movement data of the bar or phone, not of your body.</li>
-<li><strong>Helping improve rep counting (only if you turn it on).</strong> If you turn on "Help improve rep counting" (off by default; we ask the first time you tell us whether a set was counted right, and it is in Settings → Privacy), we also keep your answers on whether a set was counted right (the real count, quick reasons and an optional note) and the raw motion recording of each set you lift (the accelerometer and gyroscope readings before any processing, about 0.4 MB per set). Only the Wizelift team uses them, only to test and improve rep counting and the metrics. Other users and coaches never see them. Sets a training partner does on your phone are not recorded. Turn it off and nothing more is sent, and the recordings are deleted within a day.</li>
+<li><strong>Helping improve rep counting (only if you turn it on).</strong> If you turn on "Help improve rep counting" (off by default; we ask the first time you tell us whether a set was counted right, and it is in Settings → Privacy), we also keep your answers on whether a set was counted right (the real count, quick reasons and an optional note) and the raw motion recording of each set you lift (the accelerometer and gyroscope readings before any processing, about 0.4 MB per set). Only the Wizelift team uses them, only to test and improve rep counting and the metrics. Other users and coaches never see them. Sets a training partner does on your phone are not recorded. Turn it off and nothing more is sent, and the recordings and your answers are deleted within a day.</li>
 <li><strong>Calculated results.</strong> Estimated maxes, load-velocity profiles, fatigue, readiness ("primed / steady / recover") and comparisons (see §9).</li>
 <li><strong>Your sessions.</strong> Our sign-in system (Supabase Auth) records, for each device or browser where you are signed in, when the session started and was last refreshed, the <strong>IP address</strong> and the browser or app description (user agent) it was opened from. It keeps them while that session is open (see §12).</li>
 <li><strong>Attempt limits.</strong> To stop password guessing and spam, sign-up, sign-in, website forms and shop checkout count attempts per IP. For that we store only an <strong>irreversible fingerprint</strong> (a keyed hash) of the IP, never the IP itself, and delete it after 90 days.</li>
@@ -250,7 +250,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Website: waitlist and newsletter (stored in our own database)</td>
-<td>Email, language, the page you signed up on</td>
+<td>Email, language, the page you signed up on, which consent text you ticked and when, and when you confirmed by email</td>
 <td>Consent — Art. 6(1)(a) and LSSI art. 21</td>
 </tr>
 <tr>
@@ -275,12 +275,12 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <hr>
 <h2 id="en-5">5. Health data</h2>
 <h3 id="en-5-1">5.1 What we treat as health data</h3>
-<p>We treat as health data (GDPR Art. 9) your body weight and its history, body-fat percentage, resting heart rate, the pain level you note on a set, the "Poor sleep" and "Sore" session tags, and everything we read from Apple Health or Health Connect. We do so because, together, they let someone infer things about your health.</p>
+<p>We treat as health data (GDPR Art. 9) your body weight and its history, body-fat percentage, resting heart rate, the pain level you note on a set, the "Poor sleep" and "Sore" session tags, and everything we read from Apple Health or Health Connect. We do so because, together, they let someone infer things about your health. Your <strong>height and sex</strong> are not health data in themselves, but they describe your body, so we keep them under the same consent: without it they are not used in any calculation, comparison or leaderboard, and are not shown to friends or coaches.</p>
 <h3 id="en-5-2">5.2 Legal basis: your explicit consent</h3>
 <p>We only process this data with your <strong>explicit consent</strong>, given on a separate screen with a box that is <strong>not pre-ticked</strong>. We record when you gave it and which text you accepted.</p>
 <ul>
 <li><strong>You can say no.</strong> You can still log workouts and use the app. Only the calculations that depend on this data stop working.</li>
-<li><strong>You can withdraw it at any time</strong> in <strong>Settings → Privacy → Health data</strong>. When you withdraw it, we stop using and receiving this data and offer to delete what we already hold. Withdrawing does not make what we did earlier with your permission unlawful.</li>
+<li><strong>You can withdraw it at any time</strong> in <strong>Settings → Privacy → Health data</strong>. When you withdraw it, we stop using and receiving this data at once: our server no longer uses your weight, height or sex in any score, leaderboard or comparison (yours or anyone else's), and the app stops reading Apple Health / Health Connect and deletes the readings it kept on the phone. We also offer to delete what we already hold. Withdrawing does not make what we did earlier with your permission unlawful.</li>
 <li>The system permission (the Apple Health or Health Connect sheet) is a different thing: it is the operating system's permission for the app to read the data. Our consent is the one we ask for, as controller.</li>
 </ul>
 <h3 id="en-5-3">5.3 What happens to Apple Health and Health Connect readings</h3>
@@ -320,11 +320,11 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <p>Also:</p>
 <ul>
 <li><strong>Your username</strong> can appear in other signed-in users' searches, so they can send you a request. Your <strong>display name and profile photo</strong> appear in those results only if your profile visibility lets that person see them.</li>
-<li><strong>Your body data</strong> (weight, height, body fat, heart rate, sex, date of birth) <strong>is never shown to other users</strong>, with one exception you control: if you turn on <strong>"Share my training profile with friends"</strong> (off by default, in Settings → Privacy), your accepted friends can see your goal, level, sex and height, so a friend you train with can grade your sets by your goal. Never your weight, body fat, heart rate or age.</li>
+<li><strong>Your body data</strong> (weight, height, body fat, heart rate, sex, date of birth) <strong>is never shown to other users</strong>, with one exception you control: if you turn on <strong>"Share my training profile with friends"</strong> (off by default, in Settings → Privacy), your accepted friends can see your goal, level, sex and height (sex and height only while you also have health consent, §5), so a friend you train with can grade your sets by your goal. Your goal then also appears next to your name on leaderboards, but only to accepted friends. Never your weight, body fat, heart rate or age.</li>
 <li><strong>Pain level, perceived exertion, "felt heavy" and technique notes on each set are visible only to you.</strong></li>
 <li><strong>General workout notes</strong> are visible to whoever can see that workout.</li>
-<li><strong>"Allow comparison".</strong> If on, your best marks (velocity, load, estimated 1RM, number of sessions) appear on the leaderboards of people who can see your workouts, and your set details are visible to them. It is <strong>off</strong> by default. You can change it at any time.</li>
-<li><strong>Comparisons with other users</strong> (e.g. "your power vs. lifters of your weight") use aggregated data and <strong>only when a group has at least 5 people</strong>, so nobody can be identified.</li>
+<li><strong>"Allow comparison".</strong> If on, your best marks (velocity, load, estimated 1RM, number of sessions) appear on the leaderboards of people who can see your workouts. It does not open anything else: who sees your sets is decided by your workout visibility. It is <strong>off</strong> by default. You can change it at any time.</li>
+<li><strong>Comparisons with other users</strong> (e.g. "your power vs. lifters of your weight") use aggregated data and <strong>only when a group has at least 5 people</strong>, so nobody can be identified. Only the body weight and sex of people who gave health consent go into them.</li>
 <li><strong>Comments, likes and photos</strong> are visible to whoever can see the workout they belong to.</li>
 <li>If you <strong>block</strong> someone, you stop seeing each other.</li>
 </ul>
@@ -333,10 +333,10 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <ul>
 <li><strong>How it starts.</strong> The coach gives you a code (or its QR or link). You enter it, the app shows you who the coach is and what they will see, you choose, and you accept. A coach cannot ask to follow you; there is no request to say no to. Nothing is shared until you accept.</li>
 <li><strong>What a coach always sees</strong> while the link is active: your finished workouts with their sets, reps, loads, velocities and motion signal, the general workout notes, and your training plan. This applies whatever your workout visibility is (§6), because training is what a coaching link is for. They also see your name, photo and level.</li>
-<li><strong>What you choose, coach by coach</strong> (you can change it at any time): your training profile (goal, experience, height), your sex, and your <strong>body weight</strong>. Body weight is health data: it is <strong>off</strong> by default and has its own tick, which is your explicit consent for that coach (§5).</li>
+<li><strong>What you choose, coach by coach</strong> (you can change it at any time): your training profile (goal, experience, height), your sex, and your <strong>body weight</strong>. Body weight is health data: it is <strong>off</strong> by default and has its own tick, which is your explicit consent for that coach (§5). Height, sex and body weight reach a coach only while you also have health consent.</li>
 <li><strong>What a coach never sees:</strong> your pain level, perceived exertion, "felt heavy" and the other per-set notes only you see, the "Poor sleep" and "Sore" tags, your Apple Health / Health Connect readings, body fat, heart rate, date of birth or age, and the sets you logged for a guest partner.</li>
 <li><strong>Record of what you agreed.</strong> Each time you accept a coach or change what they see, we record what you chose, when, and the version of the text you were shown. We keep that record so we can show what you agreed to, and you can ask us for a copy.</li>
-<li><strong>Downloads.</strong> A coach can download your sets as a spreadsheet file (CSV). We record every download (which coach, when, what). Once downloaded, <strong>that file is on the coach's computer and the coach is responsible for it</strong> under data-protection law; we cannot delete it. If you want a coach to delete a file, ask them; if they do not, write to us.</li>
+<li><strong>Downloads.</strong> A coach can download your sessions as a spreadsheet file (CSV). We record every file a coach downloads from the app (which coach, when, what): our server writes the record before it hands over the data, so a download cannot skip it. A coach can still copy by hand what they can see on screen; that is not recorded. Once downloaded, <strong>that file is on the coach's computer and the coach is responsible for it</strong> under data-protection law; we cannot delete it. If you want a coach to delete a file, ask them; if they do not, write to us.</li>
 <li><strong>Ending it.</strong> You or the coach can end the link at any time: <strong>Settings → Coaching → (the coach) → Remove coach</strong>. Access stops at that moment, because every read checks the live link. Blocking each other ends it too. A coach keeps no access to anything after that, except files they had already downloaded.</li>
 <li><strong>If you are a coach:</strong> you must use what you see only to coach that person, keep any file you download secure, and delete it when you stop coaching them. The Terms of Use set out these duties.</li>
 </ul>
@@ -384,8 +384,8 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td><strong>Resend</strong> (Resend, Inc.)</td>
-<td>Your email address and the content of account emails (confirmation, password reset, email change), sent from no-reply@wizelift.com. What you type in a website form (contact, gym quote) and the details of a Bizum or bank-transfer order: name, email, phone, address, message</td>
-<td>Send account emails; deliver website forms and order notices to our inbox</td>
+<td>Your email address and the content of account emails (confirmation, password reset, email change), sent from no-reply@wizelift.com. What you type in a website form (contact, gym quote) and the details of a Bizum or bank-transfer order: name, email, phone, address, message. Your email address when you sign up for the newsletter or a waitlist, to send you the confirmation email and, once you confirm, the news you asked for</td>
+<td>Send account emails; deliver website forms and order notices to our inbox; confirm and send newsletter and waitlist emails</td>
 <td>Processor</td>
 <td>Sent from Resend's EU region (Ireland). Resend, Inc. is a US company: <strong>EU-US Data Privacy Framework</strong> and standard contractual clauses in its data processing agreement</td>
 </tr>
@@ -454,7 +454,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td><strong>Strava</strong>, only if you connect it</td>
-<td>Name, description, time, duration and exercises of the workout you choose to send</td>
+<td>Of the workout you choose to send: name, description, time, duration, exercises, sets, reps, bar velocity and volume. The volume counts only the external load (bar, plates, machine); your body weight is never included</td>
 <td>At your request, when you connect your Strava account in Settings → Connected apps</td>
 <td><strong>Independent controller</strong>: Strava's privacy policy applies</td>
 <td>US. You send it yourself, from your own account</td>
@@ -504,7 +504,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Answers on rep counting and raw motion recordings (if you turned on "Help improve rep counting")</td>
-<td>While you keep the consent and the set. If you withdraw consent, the recordings are deleted from our servers within a day, and we also delete the copies we keep to test the algorithm. Deleting a set or your account deletes its answers and recording</td>
+<td>While you keep the consent and the set. If you withdraw consent, your answers and the recordings are deleted from our servers within a day, and we also delete the copies we keep to test the algorithm. Deleting your account deletes them at once. Deleting a set deletes its answers at once and its recording within about a week</td>
 </tr>
 <tr>
 <td>Coach links, what you shared with each coach and the record of their downloads</td>
@@ -536,7 +536,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Backups</td>
-<td>Our database provider keeps no backups on our plan, so we make our own: every night, an encrypted copy (AES-256) of the database, kept on an encrypted disk under our control in Spain. We keep the <strong>30 most recent copies</strong>, normally about 30 days; if a night is missed, the oldest copy is kept a little longer. Data you delete disappears from the backups when the last copy that contains it is replaced. We would use a copy only to recover from a failure, and before using one we delete again every account deleted since that copy was made: for this we keep a list of the ids of deleted accounts and the date, and nothing else, for as long as we keep backups that could contain them. The computer we work from is itself backed up with Apple Time Machine, encrypted, on that same disk; it may hold working copies, for example a data export you asked us for. Time Machine keeps hourly copies for 24 hours, daily copies for the past month and weekly copies until its disk is full, so such a working copy can stay there for <strong>longer than 30 days</strong>. We never restore personal data from Time Machine</td>
+<td>Our database provider keeps no backups on our plan, so we make our own: every night, an encrypted copy (AES-256) of the database, kept on an encrypted disk under our control in Spain. We keep the <strong>30 most recent copies</strong>, normally about 30 days; if a night is missed, the oldest copy is kept a little longer. Data you delete disappears from the backups when the last copy that contains it is replaced. We would use a copy only to recover from a failure, and before using one we delete again every account deleted since that copy was made: for this we keep a list of the ids of deleted accounts and the date, and nothing else, for <strong>90 days</strong> (longer than any backup that could contain them), after which it is deleted automatically. The computer we work from is itself backed up with Apple Time Machine, encrypted, on that same disk; it may hold working copies, for example a data export you asked us for. Time Machine keeps hourly copies for 24 hours, daily copies for the past month and weekly copies until its disk is full, so such a working copy can stay there for <strong>longer than 30 days</strong>. We never restore personal data from Time Machine</td>
 </tr>
 <tr>
 <td>Content reports and moderation decisions</td>
@@ -564,7 +564,11 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Waitlist and newsletter</td>
-<td>Until you ask us to remove you (write to privacy@wizelift.com). Every newsletter we send will carry an unsubscribe link. We have not sent any yet</td>
+<td>Until you unsubscribe: every email carries a link that removes you at once, or write to privacy@wizelift.com. We keep which consent text you ticked and when for as long as you are on the list. If you do not confirm the sign-up from the email we send, the address is deleted automatically after 30 days. We have not sent any newsletter yet</td>
+</tr>
+<tr>
+<td>Copies we take to fix a problem (for example a copy of some sets to find a bug)</td>
+<td>Only for that job, and deleted within 30 days. If you delete your account or withdraw a consent, we also delete such copies of your data</td>
 </tr>
 <tr>
 <td>Shop orders and invoices</td>
@@ -578,9 +582,9 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <h3 id="en-13-1">In the app</h3>
 <ul>
 <li><strong>Your session</strong> is kept in the system's secure store (Keychain on iPhone, Keystore on Android). It ends after 90 days without use (§12), or when you sign out or delete the account.</li>
-<li>The app keeps <strong>a temporary copy</strong> of your data and of sets waiting to upload on your phone, so it works offline. That copy is deleted when you sign out or delete your account. Sets and set notes waiting to upload are kept on sign-out so you do not lose a workout (each with the account it belongs to, and sent only for that account); they are deleted when you delete your account. Set notes saved by older versions of the app, which did not record whose they were, are deleted at sign-out.</li>
+<li>The app keeps <strong>a temporary copy</strong> of your data and of sets waiting to upload on your phone, so it works offline. Your body weight, body fat and resting heart rate are never put in that copy. It is deleted when you sign out or delete your account. Sets and set notes waiting to upload are kept on sign-out so you do not lose a workout (each with the account it belongs to, and sent only for that account); they are deleted when you delete your account. Set notes saved by older versions of the app, which did not record whose they were, are deleted at sign-out.</li>
 <li>The app also keeps a few small records on the phone: why a save failed and when the app was locked or opened (to diagnose lost sets), which workouts it already wrote to Apple Health or Health Connect, and the state of a health-data import. They are deleted when you delete your account (or uninstall the app). A switch that remembers you disconnected Health stays on the phone, holding no data, so the next account on that phone does not read your Health data.</li>
-<li><strong>Health / Health Connect readings</strong> are stored only on your phone (see §5) and deleted on sign-out.</li>
+<li><strong>Health / Health Connect readings</strong>, and readings you imported from a file, are stored only on your phone (see §5) and deleted when you sign out, withdraw health consent or delete your account.</li>
 <li>The app uses <strong>no cookies, no advertising identifiers and no cross-app tracking.</strong></li>
 <li>If you uninstall the app, the system deletes everything stored in it.</li>
 </ul>
@@ -676,7 +680,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <td><strong>Settings → Your data → Delete my health data</strong></td>
 </tr>
 <tr>
-<td>Delete my workouts but keep the account (every workout with its sets, sensor signal, notes, tags and photos; ML recordings; and the 1RMs, level and badges worked out from them. Your account, profile, settings, plan, weigh-ins and body measurements stay)</td>
+<td>Delete my workouts but keep the account (every workout with its sets, sensor signal, notes, tags and photos; ML recordings; and the 1RMs, level and badges worked out from them. Your account, profile, settings, plan, weigh-ins and body measurements stay. Sets you lifted in someone else's workout stay in that workout, which is theirs; they go without your name if you delete your account, §7)</td>
 <td><strong>Settings → Your data → Delete all training data</strong></td>
 </tr>
 <tr>
@@ -686,7 +690,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tbody>
 </table></div>
 <p><strong>What "Delete account" deletes:</strong> your account, profile, workouts, sets and sensor signal, photos, comments, likes, followers, notifications and settings. If Strava was connected, we revoke access. Coach links end at once. It is deleted immediately; it disappears from our backups within about 30 days (§12). Only these are kept: shop orders, for the legal period (§12); without your name, the sets you did in someone else's workout and the sets a partner logged for you (§7); content reports you filed that are still open, without your account (§12); and, for 3 years, the record of what you consented to, without your account id (§12).</p>
-<p><strong>What the in-app export includes:</strong> everything above it lists, including your account data (email, sign-in dates and methods, two-step verification), the devices where you are signed in (with their IP address), the reports you filed, your coach links and what each coach downloaded, the sets a partner logged for you, and links to your photo and profile picture files, valid for 24 hours. The raw sensor signal is a separate download (above), because of its size.</p>
+<p><strong>What the in-app export includes:</strong> everything above it lists, including your account data (email, sign-in dates and methods), the devices where you are signed in (with their IP address), the reports you filed, your coach links and what each coach downloaded, the sets a partner logged for you, your answers on rep counting, the list of your rep-counting recordings, the raw readings of the ML recording sessions, and links to your photo, profile picture and rep-counting recording files, valid for 24 hours. The raw sensor signal of your sets is a separate download (above), because of its size. Sets you logged for a training partner in your own workouts are left out, because they are that person's. Shop orders are kept by email, not by account: ask us for them at the privacy email.</p>
 <p><strong>If you no longer have the app installed</strong>, you can request account deletion as explained at <a href="https://wizelift.com/delete-account.html" target="_blank" rel="noopener">https://wizelift.com/delete-account.html</a>.</p>
 <h3 id="en-14-2">By email</h3>
 <p>Email <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a> from your account's email address, saying which right you want to use. If we cannot confirm it is you, we will ask for the minimum needed to check. We will reply within <strong>one month at most</strong>. If the request is complex, that can be extended by two more months, and we will tell you within the first month. It is free.</p>
@@ -696,7 +700,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <p>If you think we have not handled your data properly, you can complain to the <strong>Spanish Data Protection Agency (AEPD)</strong> at its e-office <a href="https://sedeaepd.gob.es" target="_blank" rel="noopener">https://sedeaepd.gob.es</a> or by post (its current postal address is on <a href="https://www.aepd.es" target="_blank" rel="noopener">https://www.aepd.es</a>). If you live in another EU country, you can also complain to your own country's authority. We would appreciate it if you wrote to us first: we can often fix things quickly.</p>
 <hr>
 <h2 id="en-15">15. Minors</h2>
-<p>Wizelift is only for people aged <strong>14 or over</strong>. We check this with your date of birth at sign-up, and our server also refuses accounts under that age.</p>
+<p>Wizelift is only for people aged <strong>14 or over</strong>. We check this with your date of birth at sign-up, and our server also refuses accounts under that age. Accounts created before this check existed are asked to confirm their age the next time they open the app; until they do, the health features stay off.</p>
 <p>In Spain, from age 14 a minor can consent on their own to the processing of their data (LOPDGDD art. 7), including the explicit consent for health data in §5. In some other EU countries that age is higher (up to 16, GDPR Art. 8). If you live in one of those countries and are below your country's age, you may use Wizelift only with the consent of a parent or guardian, who can contact us at <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a>.</p>
 <p>If we find that an account belongs to someone under 14, we will delete it. If you are a parent or guardian and think a minor has created an account, email the privacy address.</p>
 <hr>
@@ -750,7 +754,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
     </ol>
   </nav>
 <p><strong>Se aplica a:</strong> la app Wizelift (iOS y Android), la app web de Wizelift en <a href="https://wizelift.app/" target="_blank" rel="noopener">https://wizelift.app/</a> y la web <a href="https://wizelift.com/" target="_blank" rel="noopener">https://wizelift.com/</a>, incluida su tienda.</p>
-<p><strong>Versión 2026-11-05.</strong> Qué cambia respecto a la versión 2026-11-04: un consentimiento opcional para ayudar a mejorar el conteo de repeticiones (§3.2, §4, §12). Respecto a la versión 2026-10-15: entrenadores (§6.1), la app web (§13), nuestros proveedores de correo (§10), las copias de seguridad y cuánto guardamos cada cosa (§12), y los detalles de sesiones e IP (§3.2, §16).</p>
+<p><strong>Versión 2026-11-05, revisada el 5 de noviembre de 2026.</strong> La revisión ajusta el texto a lo que hacen la app y nuestro servidor tras una revisión de protección de datos: el consentimiento de salud cubre también la altura y el sexo, y retirarlo detiene su uso en todas partes a la vez (§3.1, §5, §6); las respuestas sobre el conteo de repeticiones van con ese consentimiento (§3.2, §12); apuntarse al boletín o a una lista de espera pide marcar una casilla y confirmar por email (§4, §12); qué recibe Strava (§10); las descargas de los entrenadores (§6.1); qué incluye la exportación (§14); cuánto guardamos la lista de cuentas borradas y nuestras copias de trabajo (§12); la comprobación de edad de las cuentas antiguas (§15). No te pide nada nuevo. Qué cambia respecto a la versión 2026-11-04: un consentimiento opcional para ayudar a mejorar el conteo de repeticiones (§3.2, §4, §12). Respecto a la versión 2026-10-15: entrenadores (§6.1), la app web (§13), nuestros proveedores de correo (§10), las copias de seguridad y cuánto guardamos cada cosa (§12), y los detalles de sesiones e IP (§3.2, §16).</p>
 <p>Esta política explica qué datos tuyos usamos, para qué, con quién los compartimos, cuánto tiempo los guardamos y cómo controlarlos. Hemos intentado escribirla en un lenguaje claro. Si algo no se entiende, escríbenos a <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a>.</p>
 <hr>
 <h2 id="es-1">1. Resumen (lo esencial en una tabla)</h2>
@@ -829,12 +833,12 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td><strong>Cuerpo y salud</strong></td>
-<td>Sexo, peso y su historial, altura, porcentaje de grasa corporal, pulso en reposo, máximos estimados (1RM) de los ejercicios principales</td>
-<td>No. Necesitan tu consentimiento explícito (ver §5). Sin ellos la app funciona, pero algunos cálculos son menos precisos</td>
+<td>Peso y su historial, altura, porcentaje de grasa corporal, pulso en reposo, sexo</td>
+<td>No. Necesitan tu consentimiento explícito (ver §5). Sin ellos la app funciona, pero algunos cálculos son menos precisos. Sin ese consentimiento no usamos ninguno, tampoco el sexo, en ningún cálculo, comparativa ni clasificación</td>
 </tr>
 <tr>
 <td><strong>Entrenamiento</strong></td>
-<td>Ejercicios, series, repeticiones, cargas, descansos, etiquetas de sesión, pruebas de máximo, notas del entreno, zona horaria, planes de entrenamiento</td>
+<td>Ejercicios, series, repeticiones, cargas, descansos, etiquetas de sesión, pruebas de máximo y los máximos estimados (1RM) que anotas de los ejercicios principales, notas del entreno, zona horaria, planes de entrenamiento</td>
 <td>Sí para usar la función principal</td>
 </tr>
 <tr>
@@ -882,7 +886,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <h3 id="es-3-2">3.2 Datos que se generan al usar la app</h3>
 <ul>
 <li><strong>Datos de los sensores del móvil.</strong> Mientras haces una serie, la app lee el acelerómetro y el giroscopio (unas 100 lecturas por segundo) para calcular la velocidad de la barra, la potencia, el recorrido y la estabilidad de cada repetición. Guardamos en tu cuenta las métricas de cada repetición y la señal de movimiento de la serie, para que puedas ver la gráfica de cada repetición más tarde. Son datos de movimiento de la barra o del móvil, no de tu cuerpo.</li>
-<li><strong>Ayudar a mejorar el conteo de repeticiones (solo si lo activas).</strong> Si activas «Ayuda a mejorar el conteo de repeticiones» (desactivado por defecto; te lo preguntamos la primera vez que nos dices si una serie se contó bien, y está en Ajustes → Privacidad), guardamos además tus respuestas sobre si una serie se contó bien (el número real, motivos rápidos y una nota opcional) y la grabación en bruto del movimiento de cada serie que haces (las lecturas del acelerómetro y del giroscopio antes de procesarlas, unos 0,4 MB por serie). Solo las usa el equipo de Wizelift, y solo para probar y mejorar el conteo de repeticiones y las métricas. Ni otros usuarios ni los entrenadores las ven nunca. Las series que hace un compañero en tu móvil no se graban. Si lo desactivas, no se envía nada más y las grabaciones se borran en un día.</li>
+<li><strong>Ayudar a mejorar el conteo de repeticiones (solo si lo activas).</strong> Si activas «Ayuda a mejorar el conteo de repeticiones» (desactivado por defecto; te lo preguntamos la primera vez que nos dices si una serie se contó bien, y está en Ajustes → Privacidad), guardamos además tus respuestas sobre si una serie se contó bien (el número real, motivos rápidos y una nota opcional) y la grabación en bruto del movimiento de cada serie que haces (las lecturas del acelerómetro y del giroscopio antes de procesarlas, unos 0,4 MB por serie). Solo las usa el equipo de Wizelift, y solo para probar y mejorar el conteo de repeticiones y las métricas. Ni otros usuarios ni los entrenadores las ven nunca. Las series que hace un compañero en tu móvil no se graban. Si lo desactivas, no se envía nada más y las grabaciones y tus respuestas se borran en un día.</li>
 <li><strong>Resultados calculados.</strong> Máximos estimados, perfiles carga-velocidad, fatiga, estado de forma («preparado / estable / recupera») y comparaciones (ver §9).</li>
 <li><strong>Tus sesiones.</strong> Nuestro sistema de inicio de sesión (Supabase Auth) registra, por cada dispositivo o navegador en el que tienes la sesión iniciada, cuándo empezó y cuándo se renovó por última vez la sesión, la <strong>dirección IP</strong> y la descripción del navegador o la app (<em>user agent</em>) desde la que se abrió. Los guarda mientras esa sesión siga abierta (ver §12).</li>
 <li><strong>Límites de intentos.</strong> Para frenar a quien prueba contraseñas o envía spam, el registro, el inicio de sesión, los formularios de la web y el pago de la tienda cuentan los intentos por IP. Para eso solo guardamos una <strong>huella irreversible</strong> (hash con clave secreta) de la IP, nunca la IP en claro, y la borramos a los 90 días.</li>
@@ -978,7 +982,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Web: lista de espera y boletín de novedades (guardados en nuestra propia base de datos)</td>
-<td>Email, idioma, la página desde la que te apuntaste</td>
+<td>Email, idioma, la página desde la que te apuntaste, qué texto de consentimiento marcaste y cuándo, y cuándo lo confirmaste por email</td>
 <td>Consentimiento — art. 6.1.a y art. 21 LSSI</td>
 </tr>
 <tr>
@@ -1003,12 +1007,12 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <hr>
 <h2 id="es-5">5. Datos de salud</h2>
 <h3 id="es-5-1">5.1 Qué consideramos datos de salud</h3>
-<p>Tratamos como datos de salud (art. 9 RGPD) el peso y su historial, el porcentaje de grasa corporal, el pulso en reposo, el nivel de dolor que anotas en una serie, las etiquetas de sesión «Dormí mal» y «Con agujetas», y todo lo que leemos de Apple Salud o Health Connect. Lo hacemos así porque, juntos, permiten deducir cosas sobre tu salud.</p>
+<p>Tratamos como datos de salud (art. 9 RGPD) el peso y su historial, el porcentaje de grasa corporal, el pulso en reposo, el nivel de dolor que anotas en una serie, las etiquetas de sesión «Dormí mal» y «Con agujetas», y todo lo que leemos de Apple Salud o Health Connect. Lo hacemos así porque, juntos, permiten deducir cosas sobre tu salud. Tu <strong>altura y tu sexo</strong> no son datos de salud por sí mismos, pero describen tu cuerpo, así que los tratamos con el mismo consentimiento: sin él no se usan en ningún cálculo, comparativa ni clasificación, ni se muestran a amigos o entrenadores.</p>
 <h3 id="es-5-2">5.2 Base legal: tu consentimiento explícito</h3>
 <p>Solo tratamos estos datos si nos das tu <strong>consentimiento explícito</strong>, en una pantalla aparte, con una casilla que <strong>no viene marcada</strong>. Guardamos cuándo lo diste y qué texto aceptaste.</p>
 <ul>
 <li><strong>Puedes decir que no.</strong> Seguirás pudiendo registrar entrenos y usar la app. Solo dejarán de funcionar los cálculos que dependen de esos datos.</li>
-<li><strong>Puedes retirarlo cuando quieras</strong>, en <strong>Ajustes → Privacidad → Datos de salud</strong>. Al retirarlo dejamos de usar y de recibir esos datos y te ofrecemos borrar los que ya tenemos. Retirarlo no hace ilegal lo que hicimos antes con tu permiso.</li>
+<li><strong>Puedes retirarlo cuando quieras</strong>, en <strong>Ajustes → Privacidad → Datos de salud</strong>. Al retirarlo dejamos de usar y de recibir esos datos en ese momento: nuestro servidor deja de usar tu peso, tu altura y tu sexo en cualquier puntuación, clasificación o comparativa (tuya o de otros), y la app deja de leer Apple Salud / Health Connect y borra las lecturas que guardaba en el móvil. Además te ofrecemos borrar los que ya tenemos. Retirarlo no hace ilegal lo que hicimos antes con tu permiso.</li>
 <li>El permiso que te pide el sistema (la ventana de Apple Salud o de Health Connect) es otra cosa: es el permiso del sistema operativo para que la app lea los datos. Nuestro consentimiento es el que te pedimos nosotros, como responsables.</li>
 </ul>
 <h3 id="es-5-3">5.3 Qué pasa con las lecturas de Apple Salud y Health Connect</h3>
@@ -1048,11 +1052,11 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <p>Además:</p>
 <ul>
 <li><strong>Tu nombre de usuario</strong> puede aparecer en las búsquedas de otros usuarios registrados, para que puedan enviarte una solicitud. <strong>Tu nombre visible y tu foto de perfil</strong> solo aparecen en esos resultados si la visibilidad de tu perfil permite a esa persona verlos.</li>
-<li><strong>Tus datos del cuerpo</strong> (peso, altura, grasa, pulso, sexo, fecha de nacimiento) <strong>nunca se muestran a otros usuarios</strong>, con una excepción que controlas tú: si activas <strong>«Compartir mi perfil de entrenamiento con amigos»</strong> (viene apagado, en Ajustes → Privacidad), tus amigos aceptados pueden ver tu objetivo, tu nivel, tu sexo y tu altura, para que un amigo con el que entrenas pueda valorar tus series según tu objetivo. Nunca tu peso, tu grasa, tu pulso ni tu edad.</li>
+<li><strong>Tus datos del cuerpo</strong> (peso, altura, grasa, pulso, sexo, fecha de nacimiento) <strong>nunca se muestran a otros usuarios</strong>, con una excepción que controlas tú: si activas <strong>«Compartir mi perfil de entrenamiento con amigos»</strong> (viene apagado, en Ajustes → Privacidad), tus amigos aceptados pueden ver tu objetivo, tu nivel, tu sexo y tu altura (el sexo y la altura solo mientras tengas también el consentimiento de salud, §5), para que un amigo con el que entrenas pueda valorar tus series según tu objetivo. Tu objetivo aparece entonces también junto a tu nombre en las clasificaciones, pero solo para tus amigos aceptados. Nunca tu peso, tu grasa, tu pulso ni tu edad.</li>
 <li><strong>El nivel de dolor, el esfuerzo percibido, «se sintió pesado» y las notas técnicas de cada serie solo los ves tú.</strong></li>
 <li><strong>Las notas generales del entreno</strong> las ve quien pueda ver ese entreno.</li>
-<li><strong>«Permitir comparar».</strong> Si lo activas, tus mejores marcas (velocidad, carga, 1RM estimado, número de sesiones) aparecen en las clasificaciones de las personas que pueden ver tus entrenos, y el detalle de tus series es visible para ellas. Viene <strong>apagado</strong> por defecto. Puedes cambiarlo cuando quieras.</li>
-<li><strong>Comparativas con otros usuarios</strong> (por ejemplo, «tu potencia frente a personas de tu peso») se calculan con datos agregados y <strong>solo si hay al menos 5 personas en el grupo</strong>, para que nadie pueda ser identificado.</li>
+<li><strong>«Permitir comparar».</strong> Si lo activas, tus mejores marcas (velocidad, carga, 1RM estimado, número de sesiones) aparecen en las clasificaciones de las personas que pueden ver tus entrenos. No abre nada más: quién ve tus series lo decide la visibilidad de tus entrenos. Viene <strong>apagado</strong> por defecto. Puedes cambiarlo cuando quieras.</li>
+<li><strong>Comparativas con otros usuarios</strong> (por ejemplo, «tu potencia frente a personas de tu peso») se calculan con datos agregados y <strong>solo si hay al menos 5 personas en el grupo</strong>, para que nadie pueda ser identificado. Solo entran el peso y el sexo de quienes dieron el consentimiento de salud.</li>
 <li><strong>Comentarios, «me gusta» y fotos</strong> los ve quien pueda ver el entreno al que pertenecen.</li>
 <li>Si <strong>bloqueas</strong> a alguien, dejáis de veros mutuamente.</li>
 </ul>
@@ -1061,10 +1065,10 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <ul>
 <li><strong>Cómo empieza.</strong> El entrenador te da un código (o su QR o enlace). Lo introduces, la app te enseña quién es el entrenador y qué va a ver, eliges, y aceptas. Un entrenador no puede pedirte seguirte; no hay ninguna solicitud a la que decir que no. No se comparte nada hasta que aceptas.</li>
 <li><strong>Lo que un entrenador ve siempre</strong> mientras el vínculo está activo: tus entrenos terminados con sus series, repeticiones, cargas, velocidades y señal de movimiento, las notas generales del entreno y tu plan de entrenamiento. Da igual la visibilidad que tengan tus entrenos (§6), porque para eso es un vínculo con un entrenador. También ve tu nombre, tu foto y tu nivel.</li>
-<li><strong>Lo que eliges tú, entrenador por entrenador</strong> (puedes cambiarlo cuando quieras): tu perfil de entrenamiento (objetivo, experiencia, altura), tu sexo y tu <strong>peso corporal</strong>. El peso es un dato de salud: viene <strong>apagado</strong> y tiene su propia casilla, que es tu consentimiento explícito para ese entrenador (§5).</li>
+<li><strong>Lo que eliges tú, entrenador por entrenador</strong> (puedes cambiarlo cuando quieras): tu perfil de entrenamiento (objetivo, experiencia, altura), tu sexo y tu <strong>peso corporal</strong>. El peso es un dato de salud: viene <strong>apagado</strong> y tiene su propia casilla, que es tu consentimiento explícito para ese entrenador (§5). La altura, el sexo y el peso solo le llegan a un entrenador mientras tengas también el consentimiento de salud.</li>
 <li><strong>Lo que un entrenador no ve nunca:</strong> tu nivel de dolor, el esfuerzo percibido, «se sintió pesado» y el resto de notas de cada serie que solo ves tú, las etiquetas «Dormí mal» y «Con agujetas», tus lecturas de Apple Salud / Health Connect, tu grasa corporal, tu pulso, tu fecha de nacimiento o edad, ni las series que registraste para un compañero sin cuenta.</li>
 <li><strong>Registro de lo que aceptaste.</strong> Cada vez que aceptas a un entrenador o cambias lo que ve, registramos qué elegiste, cuándo y la versión del texto que se te mostró. Guardamos ese registro para poder demostrar lo que aceptaste, y puedes pedirnos una copia.</li>
-<li><strong>Descargas.</strong> Un entrenador puede descargar tus series en un archivo de hoja de cálculo (CSV). Registramos cada descarga (qué entrenador, cuándo, qué). Una vez descargado, <strong>ese archivo está en el ordenador del entrenador y el entrenador responde de él</strong> según la normativa de protección de datos; nosotros no podemos borrarlo. Si quieres que un entrenador borre un archivo, pídeselo; si no lo hace, escríbenos.</li>
+<li><strong>Descargas.</strong> Un entrenador puede descargar tus sesiones en un archivo de hoja de cálculo (CSV). Registramos cada archivo que un entrenador descarga desde la app (qué entrenador, cuándo, qué): nuestro servidor escribe el registro antes de entregar los datos, así que una descarga no puede saltárselo. Lo que un entrenador ve en pantalla puede copiarlo a mano; eso no queda registrado. Una vez descargado, <strong>ese archivo está en el ordenador del entrenador y el entrenador responde de él</strong> según la normativa de protección de datos; nosotros no podemos borrarlo. Si quieres que un entrenador borre un archivo, pídeselo; si no lo hace, escríbenos.</li>
 <li><strong>Terminar.</strong> Tú o el entrenador podéis terminar el vínculo cuando queráis: <strong>Ajustes → Entrenadores → (el entrenador) → Quitar entrenador</strong>. El acceso se corta en ese momento, porque cada lectura comprueba el vínculo en vivo. Bloquearos también lo termina. Después, el entrenador no conserva acceso a nada, salvo los archivos que ya hubiera descargado.</li>
 <li><strong>Si eres entrenador:</strong> debes usar lo que ves solo para entrenar a esa persona, guardar con seguridad cualquier archivo que descargues y borrarlo cuando dejes de entrenarla. Las Condiciones de uso recogen estas obligaciones.</li>
 </ul>
@@ -1112,8 +1116,8 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td><strong>Resend</strong> (Resend, Inc.)</td>
-<td>Tu email y el contenido de los emails de la cuenta (confirmación, cambio de contraseña, cambio de email), enviados desde no-reply@wizelift.com. Lo que escribes en un formulario de la web (contacto, presupuesto de gimnasio) y los datos de un pedido por Bizum o transferencia: nombre, email, teléfono, dirección, mensaje</td>
-<td>Enviar los emails de la cuenta; hacernos llegar los formularios de la web y los avisos de pedido</td>
+<td>Tu email y el contenido de los emails de la cuenta (confirmación, cambio de contraseña, cambio de email), enviados desde no-reply@wizelift.com. Lo que escribes en un formulario de la web (contacto, presupuesto de gimnasio) y los datos de un pedido por Bizum o transferencia: nombre, email, teléfono, dirección, mensaje. Tu email cuando te apuntas al boletín o a una lista de espera, para enviarte el email de confirmación y, cuando confirmas, las novedades que pediste</td>
+<td>Enviar los emails de la cuenta; hacernos llegar los formularios de la web y los avisos de pedido; confirmar y enviar los emails del boletín y de las listas de espera</td>
 <td>Encargado del tratamiento</td>
 <td>Se envían desde la región UE de Resend (Irlanda). Resend, Inc. es una empresa de EE. UU.: <strong>Marco de Privacidad de Datos UE-EE. UU.</strong> y cláusulas contractuales tipo en su acuerdo de encargo</td>
 </tr>
@@ -1182,7 +1186,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td><strong>Strava</strong>, solo si lo conectas</td>
-<td>Nombre, descripción, hora, duración y ejercicios del entreno que decides enviar</td>
+<td>Del entreno que decides enviar: nombre, descripción, hora, duración, ejercicios, series, repeticiones, velocidad de la barra y volumen. El volumen cuenta solo la carga externa (barra, discos, máquina); tu peso corporal nunca se incluye</td>
 <td>A petición tuya, cuando conectas tu cuenta de Strava en Ajustes → Apps conectadas</td>
 <td><strong>Responsable independiente</strong>: se aplica la política de privacidad de Strava</td>
 <td>EE. UU. Lo envías tú, desde tu propia cuenta</td>
@@ -1232,7 +1236,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Respuestas sobre el conteo de repeticiones y grabaciones en bruto del movimiento (si activaste «Ayuda a mejorar el conteo de repeticiones»)</td>
-<td>Mientras mantengas el consentimiento y la serie. Si retiras el consentimiento, las grabaciones se borran de nuestros servidores en un día, y borramos también las copias que guardamos para probar el algoritmo. Borrar una serie o tu cuenta borra sus respuestas y su grabación</td>
+<td>Mientras mantengas el consentimiento y la serie. Si retiras el consentimiento, tus respuestas y las grabaciones se borran de nuestros servidores en un día, y borramos también las copias que guardamos para probar el algoritmo. Borrar tu cuenta las borra en ese momento. Borrar una serie borra sus respuestas en ese momento y su grabación en una semana, más o menos</td>
 </tr>
 <tr>
 <td>Vínculos con entrenadores, lo que compartiste con cada uno y el registro de sus descargas</td>
@@ -1264,7 +1268,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Copias de seguridad</td>
-<td>Nuestro proveedor de base de datos no guarda copias en nuestro plan, así que las hacemos nosotros: cada noche, una copia cifrada (AES-256) de la base de datos, guardada en un disco cifrado bajo nuestro control en España. Guardamos las <strong>30 copias más recientes</strong>, normalmente unos 30 días; si una noche no se hace copia, la más antigua dura algo más. Lo que borras desaparece de las copias cuando se sustituye la última copia que lo contiene. Solo usaríamos una copia para recuperarnos de un fallo, y antes de usarla volvemos a borrar todas las cuentas borradas desde que se hizo esa copia: para eso guardamos una lista con el identificador de cada cuenta borrada y la fecha, y nada más, mientras guardemos copias que puedan contenerlas. El ordenador desde el que trabajamos tiene a su vez copia con Time Machine de Apple, cifrada, en ese mismo disco; puede contener copias de trabajo, por ejemplo una exportación de datos que nos pediste. Time Machine guarda copias horarias durante 24 horas, diarias durante el último mes y semanales hasta que su disco se llena, así que una de esas copias de trabajo puede seguir ahí <strong>más de 30 días</strong>. Nunca restauramos datos personales desde Time Machine</td>
+<td>Nuestro proveedor de base de datos no guarda copias en nuestro plan, así que las hacemos nosotros: cada noche, una copia cifrada (AES-256) de la base de datos, guardada en un disco cifrado bajo nuestro control en España. Guardamos las <strong>30 copias más recientes</strong>, normalmente unos 30 días; si una noche no se hace copia, la más antigua dura algo más. Lo que borras desaparece de las copias cuando se sustituye la última copia que lo contiene. Solo usaríamos una copia para recuperarnos de un fallo, y antes de usarla volvemos a borrar todas las cuentas borradas desde que se hizo esa copia: para eso guardamos una lista con el identificador de cada cuenta borrada y la fecha, y nada más, durante <strong>90 días</strong> (más que cualquier copia que pueda contenerlas); después se borra sola. El ordenador desde el que trabajamos tiene a su vez copia con Time Machine de Apple, cifrada, en ese mismo disco; puede contener copias de trabajo, por ejemplo una exportación de datos que nos pediste. Time Machine guarda copias horarias durante 24 horas, diarias durante el último mes y semanales hasta que su disco se llena, así que una de esas copias de trabajo puede seguir ahí <strong>más de 30 días</strong>. Nunca restauramos datos personales desde Time Machine</td>
 </tr>
 <tr>
 <td>Denuncias de contenido y decisiones de moderación</td>
@@ -1292,7 +1296,11 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tr>
 <tr>
 <td>Lista de espera y boletín</td>
-<td>Hasta que nos pidas que te quitemos (escribe a privacy@wizelift.com). Cada boletín que enviemos llevará un enlace para darte de baja. Todavía no hemos enviado ninguno</td>
+<td>Hasta que te des de baja: cada email lleva un enlace que te quita en ese momento, o escribe a privacy@wizelift.com. Guardamos qué texto de consentimiento marcaste y cuándo mientras sigas en la lista. Si no confirmas la suscripción desde el email que te enviamos, la dirección se borra sola a los 30 días. Todavía no hemos enviado ningún boletín</td>
+</tr>
+<tr>
+<td>Copias que hacemos para arreglar un problema (por ejemplo, una copia de algunas series para encontrar un fallo)</td>
+<td>Solo para ese trabajo, y se borran en 30 días como máximo. Si borras tu cuenta o retiras un consentimiento, borramos también esas copias de tus datos</td>
 </tr>
 <tr>
 <td>Pedidos y facturas de la tienda</td>
@@ -1306,9 +1314,9 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <h3 id="es-13-1">En la app</h3>
 <ul>
 <li><strong>Tu sesión</strong> se guarda en el almacén seguro del sistema (Llavero en iPhone, Keystore en Android). Termina tras 90 días sin usarse (§12), o cuando cierras sesión o borras la cuenta.</li>
-<li>La app guarda en tu móvil <strong>una copia temporal</strong> de tus datos y las series pendientes de subir, para que funcione sin conexión. Esa copia se borra al cerrar sesión o al borrar la cuenta. Las series y las notas de series pendientes de subir se conservan al cerrar sesión para no perder un entreno (cada una con la cuenta a la que pertenece, y solo se envían para esa cuenta); se borran al borrar la cuenta. Las notas de series guardadas por versiones antiguas de la app, que no apuntaban de quién eran, se borran al cerrar sesión.</li>
+<li>La app guarda en tu móvil <strong>una copia temporal</strong> de tus datos y las series pendientes de subir, para que funcione sin conexión. Tu peso, tu grasa corporal y tu pulso en reposo nunca entran en esa copia. Se borra al cerrar sesión o al borrar la cuenta. Las series y las notas de series pendientes de subir se conservan al cerrar sesión para no perder un entreno (cada una con la cuenta a la que pertenece, y solo se envían para esa cuenta); se borran al borrar la cuenta. Las notas de series guardadas por versiones antiguas de la app, que no apuntaban de quién eran, se borran al cerrar sesión.</li>
 <li>La app guarda también algunos registros pequeños en el móvil: por qué falló un guardado y cuándo se bloqueó o abrió la app (para diagnosticar series perdidas), qué entrenos ya escribió en Salud de Apple o Health Connect y el estado de una importación de datos de salud. Se borran al borrar la cuenta (o al desinstalar la app). Un interruptor que recuerda que desconectaste Salud se queda en el móvil, sin ningún dato, para que la siguiente cuenta en ese móvil no lea tus datos de Salud.</li>
-<li>Las <strong>lecturas de Salud / Health Connect</strong> se guardan solo en tu móvil (ver §5) y se borran al cerrar sesión.</li>
+<li>Las <strong>lecturas de Salud / Health Connect</strong>, y las que importaste desde un archivo, se guardan solo en tu móvil (ver §5) y se borran al cerrar sesión, al retirar el consentimiento de salud o al borrar la cuenta.</li>
 <li>La app <strong>no usa cookies, ni identificadores publicitarios, ni seguimiento entre apps.</strong></li>
 <li>Si desinstalas la app, el sistema borra todo lo que estaba guardado en ella.</li>
 </ul>
@@ -1404,7 +1412,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <td><strong>Ajustes → Tus datos → Borrar mis datos de salud</strong></td>
 </tr>
 <tr>
-<td>Borrar mis entrenos sin cerrar la cuenta (cada entreno con sus series, señal de sensores, notas, etiquetas y fotos; las grabaciones de ML; y los 1RM, el nivel y las insignias calculados a partir de ellos. Se quedan tu cuenta, tu perfil, tus ajustes, tu plan, tus pesajes y tus medidas corporales)</td>
+<td>Borrar mis entrenos sin cerrar la cuenta (cada entreno con sus series, señal de sensores, notas, etiquetas y fotos; las grabaciones de ML; y los 1RM, el nivel y las insignias calculados a partir de ellos. Se quedan tu cuenta, tu perfil, tus ajustes, tu plan, tus pesajes y tus medidas corporales. Las series que hiciste en el entreno de otra persona se quedan en ese entreno, que es suyo; si borras la cuenta se quedan sin tu nombre, §7)</td>
 <td><strong>Ajustes → Tus datos → Borrar todos los datos de entreno</strong></td>
 </tr>
 <tr>
@@ -1414,7 +1422,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 </tbody>
 </table></div>
 <p><strong>Qué borra «Borrar la cuenta»:</strong> tu cuenta, tu perfil, tus entrenos, tus series y la señal de los sensores, tus fotos, tus comentarios, «me gusta», seguidores, notificaciones y ajustes. Si tenías Strava conectado, revocamos el acceso. Los vínculos con entrenadores terminan al instante. Se borra al momento; de nuestras copias de seguridad desaparece en unos 30 días (§12). Solo se conserva esto: los pedidos de la tienda, durante el plazo legal (§12); sin tu nombre, las series que hiciste en el entreno de otra persona y las que un compañero registró para ti (§7); las denuncias que presentaste y siguen abiertas, sin tu cuenta (§12); y, durante 3 años, el registro de lo que consentiste, sin el identificador de tu cuenta (§12).</p>
-<p><strong>Lo que incluye la exportación de la app:</strong> todo lo que se enumera arriba, incluidos los datos de tu cuenta (email, fechas y formas de inicio de sesión, verificación en dos pasos), los dispositivos donde tienes la sesión iniciada (con su dirección IP), las denuncias que presentaste, tus vínculos con entrenadores y lo que descargó cada uno, las series que un compañero registró para ti y enlaces a los archivos de tus fotos y de tu foto de perfil, válidos 24 horas. La señal bruta de los sensores es una descarga aparte (arriba), por su tamaño.</p>
+<p><strong>Lo que incluye la exportación de la app:</strong> todo lo que se enumera arriba, incluidos los datos de tu cuenta (email, fechas y formas de inicio de sesión), los dispositivos donde tienes la sesión iniciada (con su dirección IP), las denuncias que presentaste, tus vínculos con entrenadores y lo que descargó cada uno, las series que un compañero registró para ti, tus respuestas sobre el conteo de repeticiones, la lista de tus grabaciones para el conteo de repeticiones, las lecturas en bruto de las sesiones de grabación de ML, y enlaces a los archivos de tus fotos, de tu foto de perfil y de esas grabaciones, válidos 24 horas. La señal bruta de los sensores de tus series es una descarga aparte (arriba), por su tamaño. Las series que registraste para un compañero en tus propios entrenos no se incluyen, porque son de esa persona. Los pedidos de la tienda se guardan por email, no por cuenta: pídenoslos en el email de privacidad.</p>
 <p><strong>Si no tienes la app instalada</strong>, puedes pedir que borremos tu cuenta como se explica en <a href="https://wizelift.com/delete-account.html?lang=es" target="_blank" rel="noopener">https://wizelift.com/delete-account.html</a>.</p>
 <h3 id="es-14-2">Por email</h3>
 <p>Escribe a <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a> desde el email de tu cuenta, diciendo qué derecho quieres ejercer. Si no podemos confirmar que eres tú, te pediremos lo mínimo necesario para comprobarlo. Te responderemos en <strong>un mes como máximo</strong>. Si la petición es compleja, ese plazo puede ampliarse dos meses más, y te avisaremos en el primer mes. Es gratis.</p>
@@ -1424,7 +1432,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-CYYuOKc
 <p>Si crees que no hemos tratado bien tus datos, puedes presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong>, en su sede electrónica <a href="https://sedeaepd.gob.es" target="_blank" rel="noopener">https://sedeaepd.gob.es</a> o por correo postal (su dirección actual está en <a href="https://www.aepd.es" target="_blank" rel="noopener">https://www.aepd.es</a>). Si vives en otro país de la UE, también puedes reclamar ante la autoridad de tu país. Te agradeceremos que antes nos escribas: muchas veces lo podemos arreglar enseguida.</p>
 <hr>
 <h2 id="es-15">15. Menores</h2>
-<p>Wizelift es solo para personas de <strong>14 años o más</strong>. Lo comprobamos con la fecha de nacimiento al registrarte, y nuestro servidor también rechaza las cuentas de menores de esa edad.</p>
+<p>Wizelift es solo para personas de <strong>14 años o más</strong>. Lo comprobamos con la fecha de nacimiento al registrarte, y nuestro servidor también rechaza las cuentas de menores de esa edad. A las cuentas creadas antes de que existiera esta comprobación les pedimos que confirmen su edad la próxima vez que abran la app; hasta que lo hagan, las funciones de salud siguen desactivadas.</p>
 <p>En España, a partir de los 14 años un menor puede consentir por sí mismo el tratamiento de sus datos (art. 7 LOPDGDD), incluido el consentimiento explícito para datos de salud de §5. En algunos otros países de la UE esa edad es mayor (hasta 16, art. 8 RGPD). Si vives en uno de ellos y no llegas a la edad de tu país, solo puedes usar Wizelift con el consentimiento de tu padre, madre o tutor, que puede escribirnos a <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a>.</p>
 <p>Si descubrimos que una cuenta es de alguien menor de 14 años, la borraremos. Si eres padre, madre o tutor y crees que un menor ha creado una cuenta, escríbenos al email de privacidad.</p>
 <hr>
