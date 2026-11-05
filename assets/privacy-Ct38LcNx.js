@@ -1,4 +1,4 @@
-import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftztq.js";import{t as s}from"./Layout-DY-xw7dl.js";import{t as c}from"./LegalDoc-Bouxy-HQ.js";var l=e(),u=r(),d=`  <p class="legal-lede">This policy exists in English and Spanish. If they differ, the Spanish version prevails.</p>
+import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-Dc5jPOnr.js";import{t as s}from"./Layout-DyaGlFyf.js";import{t as c}from"./LegalDoc-etjXDApQ.js";var l=n(),u=r(),d=`  <p class="legal-lede">This policy exists in English and Spanish. If they differ, the Spanish version prevails.</p>
   <nav class="legal-toc" aria-label="Contents">
     <h2>Contents</h2>
     <ol>
@@ -37,7 +37,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <tbody>
 <tr>
 <td><strong>Controller</strong></td>
-<td>Wizelift (company in formation) (details in §2). Privacy contact: <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></td>
+<td>Carlos Blanes Canudas, who runs Wizelift as an individual until its company is incorporated (details in §2). Privacy contact: <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></td>
 </tr>
 <tr>
 <td><strong>Purposes</strong></td>
@@ -68,10 +68,10 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <hr>
 <h2 id="en-2">2. Who the controller is and how to contact us</h2>
 <ul>
-<li><strong>Name:</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
-<li><strong>Tax ID (NIF):</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
-<li><strong>Registered address:</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
-<li><strong>Commercial Registry details:</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
+<!-- Holder until the S.L. is incorporated (5-nov-2026); then its name, NIF, registered address and registry details replace these lines. Every place to change: website-src/src/lib/holder.ts. -->
+<li><strong>Name:</strong> Carlos Blanes Canudas (individual). He runs Wizelift until the company that will provide it is incorporated; this section will then show the company.</li>
+<li><strong>Address:</strong> Calle Sant Feliu 5, 3ºB, 07012 Palma de Mallorca, Illes Balears, Spain</li>
+<li><strong>Email:</strong> <a href="mailto:carlosblanescanudas@gmail.com">carlosblanescanudas@gmail.com</a></li>
 <li><strong>Privacy and data-protection rights:</strong> <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></li>
 <li><strong>Everything else</strong> (help with the app, orders, security reports): <a href="mailto:support@wizelift.com">support@wizelift.com</a></li>
 </ul>
@@ -764,7 +764,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <tbody>
 <tr>
 <td><strong>Responsable</strong></td>
-<td>Wizelift (sociedad en constitución) (datos en §2). Contacto de privacidad: <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></td>
+<td>Carlos Blanes Canudas, que gestiona Wizelift como persona física hasta que se constituya su sociedad (datos en §2). Contacto de privacidad: <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></td>
 </tr>
 <tr>
 <td><strong>Para qué</strong></td>
@@ -796,10 +796,10 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <h2 id="es-2">2. Quién es el responsable y cómo contactarnos</h2>
 <p>El responsable del tratamiento de tus datos es:</p>
 <ul>
-<li><strong>Denominación social:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
-<li><strong>NIF:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
-<li><strong>Domicilio social:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
-<li><strong>Datos registrales:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
+<!-- Titular hasta que se constituya la S.L. (5-nov-2026); entonces su razón social, NIF, domicilio y datos registrales sustituyen estas líneas. Todos los sitios a cambiar: website-src/src/lib/holder.ts. -->
+<li><strong>Nombre:</strong> Carlos Blanes Canudas (persona física). Gestiona Wizelift hasta que se constituya la sociedad que lo prestará; entonces este apartado mostrará los datos de la sociedad.</li>
+<li><strong>Domicilio:</strong> Calle Sant Feliu 5, 3ºB, 07012 Palma de Mallorca, Illes Balears, España</li>
+<li><strong>Email:</strong> <a href="mailto:carlosblanescanudas@gmail.com">carlosblanescanudas@gmail.com</a></li>
 <li><strong>Privacidad y derechos de protección de datos:</strong> <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></li>
 <li><strong>Todo lo demás</strong> (ayuda con la app, pedidos, avisos de seguridad): <a href="mailto:support@wizelift.com">support@wizelift.com</a></li>
 </ul>
@@ -1453,4 +1453,4 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 </ul>
   <p class="small muted" style="margin-top:36px">Ver también: <a href="terms.html?lang=es">Condiciones de uso</a> · <a href="delete-account.html?lang=es">Borrar tu cuenta</a> · <a href="legal.html?lang=es">Aviso legal</a></p>
   <a class="legal-top" href="#top">↑ Volver arriba</a>
-`,p=i();function m(){let{t:e,href:r}=t();return a(`Privacy policy — Wizelift`,`Política de privacidad — Wizelift`),n(`Wizelift privacy policy: what data the app and website use, why, who receives it, how long it is kept and how to use your rights.`,`Política de privacidad de Wizelift: qué datos usan la app y la web, para qué, quién los recibe, cuánto tiempo se guardan y cómo ejercer tus derechos.`),(0,p.jsxs)(s,{page:`legal`,children:[(0,p.jsx)(`section`,{className:`page-hero`,id:`top`,children:(0,p.jsxs)(`div`,{className:`wrap`,children:[(0,p.jsxs)(`div`,{className:`crumbs`,children:[(0,p.jsx)(`a`,{href:r(`/`),children:e(`Home`,`Inicio`)}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`a`,{href:r(`/legal`),children:`Legal`}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`span`,{children:e(`Privacy policy`,`Política de privacidad`)})]}),(0,p.jsx)(`h1`,{children:e(`Privacy policy`,`Política de privacidad`)}),(0,p.jsx)(`p`,{className:`legal-meta`,children:e(`Version 2026-11-04 · Last updated 4 November 2026`,`Versión 2026-11-04 · Última actualización: 4 de noviembre de 2026`)})]})}),(0,p.jsx)(`section`,{className:`section`,style:{paddingTop:0},children:(0,p.jsx)(`div`,{className:`wrap`,children:(0,p.jsx)(c,{en:d,es:f})})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,p.jsx)(l.StrictMode,{children:(0,p.jsx)(o,{children:(0,p.jsx)(m,{})})}));
+`,p=i();function m(){let{t:n,href:r}=o();return t(`Privacy policy — Wizelift`,`Política de privacidad — Wizelift`),e(`Wizelift privacy policy: what data the app and website use, why, who receives it, how long it is kept and how to use your rights.`,`Política de privacidad de Wizelift: qué datos usan la app y la web, para qué, quién los recibe, cuánto tiempo se guardan y cómo ejercer tus derechos.`),(0,p.jsxs)(s,{page:`legal`,children:[(0,p.jsx)(`section`,{className:`page-hero`,id:`top`,children:(0,p.jsxs)(`div`,{className:`wrap`,children:[(0,p.jsxs)(`div`,{className:`crumbs`,children:[(0,p.jsx)(`a`,{href:r(`/`),children:n(`Home`,`Inicio`)}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`a`,{href:r(`/legal`),children:`Legal`}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`span`,{children:n(`Privacy policy`,`Política de privacidad`)})]}),(0,p.jsx)(`h1`,{children:n(`Privacy policy`,`Política de privacidad`)}),(0,p.jsx)(`p`,{className:`legal-meta`,children:n(`Version 2026-11-04 · Last updated 4 November 2026`,`Versión 2026-11-04 · Última actualización: 4 de noviembre de 2026`)})]})}),(0,p.jsx)(`section`,{className:`section`,style:{paddingTop:0},children:(0,p.jsx)(`div`,{className:`wrap`,children:(0,p.jsx)(c,{en:d,es:f})})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,p.jsx)(l.StrictMode,{children:(0,p.jsx)(a,{children:(0,p.jsx)(m,{})})}));

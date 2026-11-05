@@ -43,20 +43,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wizelift.com/shop"/>
   </url>
   <url>
-    <loc>https://wizelift.com/gyms</loc>
-    <lastmod>2026-11-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://wizelift.com/gyms"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://wizelift.com/es/gyms"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://wizelift.com/gyms"/>
-  </url>
-  <url>
-    <loc>https://wizelift.com/es/gyms</loc>
-    <lastmod>2026-11-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://wizelift.com/gyms"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://wizelift.com/es/gyms"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://wizelift.com/gyms"/>
-  </url>
-  <url>
     <loc>https://wizelift.com/contact</loc>
     <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://wizelift.com/contact"/>

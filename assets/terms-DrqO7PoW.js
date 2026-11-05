@@ -1,4 +1,4 @@
-import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftztq.js";import{t as s}from"./Layout-DY-xw7dl.js";import{t as c}from"./LegalDoc-Bouxy-HQ.js";var l=e(),u=r(),d=`  <p class="legal-lede">Version of <strong>4 November 2026</strong>. These terms exist in English and Spanish. If they differ, the Spanish version prevails, unless the English one is more favourable to you as a consumer.</p>
+import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-Dc5jPOnr.js";import{t as s}from"./Layout-DyaGlFyf.js";import{t as c}from"./LegalDoc-etjXDApQ.js";var l=n(),u=r(),d=`  <p class="legal-lede">Version of <strong>4 November 2026</strong>. These terms exist in English and Spanish. If they differ, the Spanish version prevails, unless the English one is more favourable to you as a consumer.</p>
   <nav class="legal-toc" aria-label="Contents">
     <h2>Contents</h2>
     <ol>
@@ -43,10 +43,11 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <h2 id="en-1">1. Who we are and how to reach us</h2>
 <p>Wizelift is provided by:</p>
 <ul>
-<li><strong>Provider:</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
-<li><strong>Tax ID (NIF):</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
-<li><strong>Registered address:</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
-<li><strong>Registry:</strong> <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here</li>
+<!-- Holder until the S.L. is incorporated (5-nov-2026); then its name, NIF, registered address and registry details replace these lines. Every place to change: website-src/src/lib/holder.ts. -->
+<li><strong>Provider:</strong> Carlos Blanes Canudas (individual). He provides Wizelift until the company that will provide it is incorporated; this section will then show the company.</li>
+<li><strong>Tax ID (NIF):</strong> 43466262B</li>
+<li><strong>Address:</strong> Calle Sant Feliu 5, 3ºB, 07012 Palma de Mallorca, Illes Balears, Spain</li>
+<li><strong>Email:</strong> <a href="mailto:carlosblanescanudas@gmail.com">carlosblanescanudas@gmail.com</a></li>
 <li><strong>Support, legal questions, moderation and appeals:</strong> <a href="mailto:support@wizelift.com">support@wizelift.com</a></li>
 <li><strong>Privacy and data protection:</strong> <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></li>
 </ul>
@@ -282,7 +283,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <p>Anything these terms do not cover is governed by Apple's Licensed Application End User License Agreement (Standard EULA). If anything in this section conflicts with the rest of these terms, this section prevails for App Store downloads.</p>
 <p><strong>Google Play.</strong> If you download Wizelift from Google Play, the Google Play Terms of Service also apply to your purchase and download. Google is not a party to this agreement.</p>
 <h2 id="en-21">21. Governing law, complaints and courts</h2>
-<p><strong>Complaints.</strong> You can make a complaint by email to <a href="mailto:support@wizelift.com">support@wizelift.com</a>. You can also write to the postal address in section 1, or call <!-- TODO-CARLOS: fill in once the S.L. is incorporated -->pending incorporation; it will be published here. We will give you a <strong>reference number</strong> and reply within <strong>15 days</strong> at the latest (Art. 21 TRLGDCU). You may also ask for official complaint forms (<em>hojas de reclamaciones</em>).</p>
+<p><strong>Complaints.</strong> You can make a complaint by email to <a href="mailto:support@wizelift.com">support@wizelift.com</a>. You can also write to the postal address in section 1, or call the phone number in the <a href="/legal#notice">legal notice</a>. We will give you a <strong>reference number</strong> and reply within <strong>15 days</strong> at the latest (Art. 21 TRLGDCU). You may also ask for official complaint forms (<em>hojas de reclamaciones</em>).</p>
 <p><strong>Out-of-court resolution.</strong> We are not members of any alternative dispute-resolution scheme for consumer disputes. You can contact the Junta Arbitral de Consumo or the consumer office of your region, although arbitration requires our agreement.</p>
 <p><strong>Governing law.</strong> These terms are governed by Spanish law. If you are a consumer living in another EU country, you also keep the protection of the mandatory rules of your country (Art. 6 of the Rome I Regulation).</p>
 <p><strong>Courts.</strong> If you are a consumer, you can bring a claim before the courts where you live, and we can only sue you before those courts (Art. 90.2 TRLGDCU, Art. 52.3 of the Spanish Civil Procedure Act and Arts. 17-18 of Regulation (EU) 1215/2012). If you are not a consumer, the courts of Madrid (Spain) have jurisdiction.</p>
@@ -343,10 +344,11 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <h2 id="es-1">1. Quiénes somos y cómo contactarnos</h2>
 <p>Wizelift lo presta:</p>
 <ul>
-<li><strong>Titular:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
-<li><strong>NIF:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
-<li><strong>Domicilio social:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
-<li><strong>Datos registrales:</strong> <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí</li>
+<!-- Titular hasta que se constituya la S.L. (5-nov-2026); entonces su razón social, NIF, domicilio y datos registrales sustituyen estas líneas. Todos los sitios a cambiar: website-src/src/lib/holder.ts. -->
+<li><strong>Titular:</strong> Carlos Blanes Canudas (persona física). Presta Wizelift hasta que se constituya la sociedad que lo prestará; entonces este apartado mostrará los datos de la sociedad.</li>
+<li><strong>NIF:</strong> 43466262B</li>
+<li><strong>Domicilio:</strong> Calle Sant Feliu 5, 3ºB, 07012 Palma de Mallorca, Illes Balears, España</li>
+<li><strong>Email:</strong> <a href="mailto:carlosblanescanudas@gmail.com">carlosblanescanudas@gmail.com</a></li>
 <li><strong>Soporte, consultas legales, moderación y reclamaciones:</strong> <a href="mailto:support@wizelift.com">support@wizelift.com</a></li>
 <li><strong>Privacidad y protección de datos:</strong> <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a></li>
 </ul>
@@ -582,7 +584,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <p>En lo que estas condiciones no regulen, se aplica el Contrato de licencia estándar de Apple para apps con licencia (<em>Standard EULA</em>). Si algo de esta sección contradice el resto de las condiciones, para las descargas desde App Store prevalece esta sección.</p>
 <p><strong>Google Play.</strong> Si descargas Wizelift desde Google Play, también se aplican las Condiciones de Servicio de Google Play a tu compra y descarga. Google no es parte de este contrato.</p>
 <h2 id="es-21">21. Ley aplicable, quejas y tribunales</h2>
-<p><strong>Quejas.</strong> Puedes presentar una queja o reclamación por correo electrónico a <a href="mailto:support@wizelift.com">support@wizelift.com</a>. También puedes escribir a la dirección postal de la sección 1, o llamar al <!-- TODO-CARLOS: completar al constituir la S.L. -->pendiente de constitución de la sociedad; se publicará aquí. Te daremos un <strong>número de referencia</strong> y te responderemos en un plazo máximo de <strong>15 días</strong> (art. 21 TRLGDCU). También puedes pedir las hojas de reclamaciones.</p>
+<p><strong>Quejas.</strong> Puedes presentar una queja o reclamación por correo electrónico a <a href="mailto:support@wizelift.com">support@wizelift.com</a>. También puedes escribir a la dirección postal de la sección 1, o llamar al teléfono que figura en el <a href="/es/legal#notice">aviso legal</a>. Te daremos un <strong>número de referencia</strong> y te responderemos en un plazo máximo de <strong>15 días</strong> (art. 21 TRLGDCU). También puedes pedir las hojas de reclamaciones.</p>
 <p><strong>Resolución extrajudicial.</strong> No estamos adheridos a ningún sistema de resolución alternativa de litigios de consumo. Puedes acudir a la Junta Arbitral de Consumo o a la oficina de consumo de tu comunidad autónoma, aunque su intervención en el arbitraje requiere que aceptemos.</p>
 <p><strong>Ley aplicable.</strong> Estas condiciones se rigen por la ley española. Si eres consumidor y vives en otro país de la UE, conservas además la protección que te dan las normas imperativas de tu país (art. 6 del Reglamento Roma I).</p>
 <p><strong>Tribunales.</strong> Si eres consumidor, puedes reclamar ante los tribunales de tu domicilio, y nosotros solo podremos demandarte ante esos tribunales (art. 90.2 TRLGDCU, art. 52.3 LEC y arts. 17-18 del Reglamento (UE) 1215/2012). Si no eres consumidor, son competentes los tribunales de Madrid (España).</p>
@@ -598,4 +600,4 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 </ul>
   <p class="small muted" style="margin-top:36px">Ver también: <a href="privacy.html?lang=es">Política de privacidad</a> · <a href="delete-account.html?lang=es">Borrar tu cuenta</a> · <a href="legal.html?lang=es">Aviso legal</a></p>
   <a class="legal-top" href="#top">↑ Volver arriba</a>
-`,p=i();function m(){let{t:e,href:r}=t();return a(`Terms of use — Wizelift`,`Condiciones de uso — Wizelift`),n(`Wizelift terms of use: who can use the app, rules, moderation, Premium, liability and your rights.`,`Condiciones de uso de Wizelift: quién puede usar la app, normas, moderación, Premium, responsabilidad y tus derechos.`),(0,p.jsxs)(s,{page:`legal`,children:[(0,p.jsx)(`section`,{className:`page-hero`,id:`top`,children:(0,p.jsxs)(`div`,{className:`wrap`,children:[(0,p.jsxs)(`div`,{className:`crumbs`,children:[(0,p.jsx)(`a`,{href:r(`/`),children:e(`Home`,`Inicio`)}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`a`,{href:r(`/legal`),children:`Legal`}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`span`,{children:e(`Terms of use`,`Condiciones de uso`)})]}),(0,p.jsx)(`h1`,{children:e(`Terms of use`,`Condiciones de uso`)})]})}),(0,p.jsx)(`section`,{className:`section`,style:{paddingTop:0},children:(0,p.jsx)(`div`,{className:`wrap`,children:(0,p.jsx)(c,{en:d,es:f})})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,p.jsx)(l.StrictMode,{children:(0,p.jsx)(o,{children:(0,p.jsx)(m,{})})}));
+`,p=i();function m(){let{t:n,href:r}=o();return t(`Terms of use — Wizelift`,`Condiciones de uso — Wizelift`),e(`Wizelift terms of use: who can use the app, rules, moderation, Premium, liability and your rights.`,`Condiciones de uso de Wizelift: quién puede usar la app, normas, moderación, Premium, responsabilidad y tus derechos.`),(0,p.jsxs)(s,{page:`legal`,children:[(0,p.jsx)(`section`,{className:`page-hero`,id:`top`,children:(0,p.jsxs)(`div`,{className:`wrap`,children:[(0,p.jsxs)(`div`,{className:`crumbs`,children:[(0,p.jsx)(`a`,{href:r(`/`),children:n(`Home`,`Inicio`)}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`a`,{href:r(`/legal`),children:`Legal`}),(0,p.jsx)(`span`,{children:`/`}),(0,p.jsx)(`span`,{children:n(`Terms of use`,`Condiciones de uso`)})]}),(0,p.jsx)(`h1`,{children:n(`Terms of use`,`Condiciones de uso`)})]})}),(0,p.jsx)(`section`,{className:`section`,style:{paddingTop:0},children:(0,p.jsx)(`div`,{className:`wrap`,children:(0,p.jsx)(c,{en:d,es:f})})})]})}(0,u.createRoot)(document.getElementById(`root`)).render((0,p.jsx)(l.StrictMode,{children:(0,p.jsx)(a,{children:(0,p.jsx)(m,{})})}));
