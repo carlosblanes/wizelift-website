@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#000000">
 <link rel="canonical" href="https://wizelift.com/es/privacy">
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
-  <script type="module" crossorigin src="/assets/privacy-USaTHHVQ.js"></script>
+  <script type="module" crossorigin src="/assets/privacy-wclLvslf.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/Providers-DPLftztq.js">
   <link rel="modulepreload" crossorigin href="/assets/Layout-DY-xw7dl.js">
   <link rel="modulepreload" crossorigin href="/assets/LegalDoc-Bouxy-HQ.js">
@@ -46,7 +46,7 @@
     </ol>
   </nav>
 <p><strong>Applies to:</strong> the Wizelift app (iOS and Android), the Wizelift web app at <a href="https://wizelift.app/" target="_blank" rel="noopener">https://wizelift.app/</a> and the website <a href="https://wizelift.com/" target="_blank" rel="noopener">https://wizelift.com/</a>, including its shop.</p>
-<p><strong>Version 2026-11-04.</strong> What changed from the 2026-10-15 version: coaches (§6.1), the web app (§13), our email providers (§10), backups and how long we keep each thing (§12), and the session and IP details (§3.2, §16).</p>
+<p><strong>Version 2026-11-05.</strong> What changed from the 2026-11-04 version: an optional consent to help improve rep counting (§3.2, §4, §12). From the 2026-10-15 version: coaches (§6.1), the web app (§13), our email providers (§10), backups and how long we keep each thing (§12), and the session and IP details (§3.2, §16).</p>
 <p>This policy explains what data about you we use, why, who we share it with, how long we keep it and how you control it. We have tried to write it plainly. If anything is unclear, email us at <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a>.</p>
 <hr>
 <h2 id="en-1">1. Summary</h2>
@@ -177,6 +177,7 @@
 <h3 id="en-3-2">3.2 Data generated when you use the app</h3>
 <ul>
 <li><strong>Phone sensor data.</strong> During a set, the app reads the accelerometer and gyroscope (about 100 readings per second) to calculate bar velocity, power, range of motion and stability for each rep. We store each rep's metrics and the set's motion signal in your account, so you can see each rep's chart later. This is movement data of the bar or phone, not of your body.</li>
+<li><strong>Helping improve rep counting (only if you turn it on).</strong> If you turn on "Help improve rep counting" (off by default; we ask the first time you tell us whether a set was counted right, and it is in Settings → Privacy), we also keep your answers on whether a set was counted right (the real count, quick reasons and an optional note) and the raw motion recording of each set you lift (the accelerometer and gyroscope readings before any processing, about 0.4 MB per set). Only the Wizelift team uses them, only to test and improve rep counting and the metrics. Other users and coaches never see them. Sets a training partner does on your phone are not recorded. Turn it off and nothing more is sent, and the recordings are deleted within a day.</li>
 <li><strong>Calculated results.</strong> Estimated maxes, load-velocity profiles, fatigue, readiness ("primed / steady / recover") and comparisons (see §9).</li>
 <li><strong>Your sessions.</strong> Our sign-in system (Supabase Auth) records, for each device or browser where you are signed in, when the session started and was last refreshed, the <strong>IP address</strong> and the browser or app description (user agent) it was opened from. It keeps them while that session is open (see §12).</li>
 <li><strong>Attempt limits.</strong> To stop password guessing and spam, sign-up, sign-in, website forms and shop checkout count attempts per IP. For that we store only an <strong>irreversible fingerprint</strong> (a keyed hash) of the IP, never the IP itself, and delete it after 90 days.</li>
@@ -219,6 +220,11 @@
 <td>Log workouts and calculate velocity, loads, maxes and plans</td>
 <td>Training, sensors, how each set felt (except pain)</td>
 <td>Contract — Art. 6(1)(b)</td>
+</tr>
+<tr>
+<td>Test and improve rep counting and the metrics on real sets (only if you turn on "Help improve rep counting")</td>
+<td>Your answers on whether a set was counted right; the raw motion recording of each set you lift</td>
+<td>Your consent — Art. 6(1)(a). You can withdraw it at any time in Settings → Privacy</td>
 </tr>
 <tr>
 <td>Use body and health data to adjust loads, compare you with yourself and assess recovery</td>
@@ -520,6 +526,10 @@
 <td>While you keep both your consent and your account. If you withdraw consent, you can delete it immediately</td>
 </tr>
 <tr>
+<td>Answers on rep counting and raw motion recordings (if you turned on "Help improve rep counting")</td>
+<td>While you keep the consent and the set. If you withdraw consent, the recordings are deleted from our servers within a day, and we also delete the copies we keep to test the algorithm. Deleting a set or your account deletes its answers and recording</td>
+</tr>
+<tr>
 <td>Coach links, what you shared with each coach and the record of their downloads</td>
 <td>While you have the account. They are deleted with it</td>
 </tr>
@@ -763,7 +773,7 @@
     </ol>
   </nav>
 <p><strong>Se aplica a:</strong> la app Wizelift (iOS y Android), la app web de Wizelift en <a href="https://wizelift.app/" target="_blank" rel="noopener">https://wizelift.app/</a> y la web <a href="https://wizelift.com/" target="_blank" rel="noopener">https://wizelift.com/</a>, incluida su tienda.</p>
-<p><strong>Versión 2026-11-04.</strong> Qué cambia respecto a la versión 2026-10-15: entrenadores (§6.1), la app web (§13), nuestros proveedores de correo (§10), las copias de seguridad y cuánto guardamos cada cosa (§12), y los detalles de sesiones e IP (§3.2, §16).</p>
+<p><strong>Versión 2026-11-05.</strong> Qué cambia respecto a la versión 2026-11-04: un consentimiento opcional para ayudar a mejorar el conteo de repeticiones (§3.2, §4, §12). Respecto a la versión 2026-10-15: entrenadores (§6.1), la app web (§13), nuestros proveedores de correo (§10), las copias de seguridad y cuánto guardamos cada cosa (§12), y los detalles de sesiones e IP (§3.2, §16).</p>
 <p>Esta política explica qué datos tuyos usamos, para qué, con quién los compartimos, cuánto tiempo los guardamos y cómo controlarlos. Hemos intentado escribirla en un lenguaje claro. Si algo no se entiende, escríbenos a <a href="mailto:privacy@wizelift.com">privacy@wizelift.com</a>.</p>
 <hr>
 <h2 id="es-1">1. Resumen (lo esencial en una tabla)</h2>
@@ -895,6 +905,7 @@
 <h3 id="es-3-2">3.2 Datos que se generan al usar la app</h3>
 <ul>
 <li><strong>Datos de los sensores del móvil.</strong> Mientras haces una serie, la app lee el acelerómetro y el giroscopio (unas 100 lecturas por segundo) para calcular la velocidad de la barra, la potencia, el recorrido y la estabilidad de cada repetición. Guardamos en tu cuenta las métricas de cada repetición y la señal de movimiento de la serie, para que puedas ver la gráfica de cada repetición más tarde. Son datos de movimiento de la barra o del móvil, no de tu cuerpo.</li>
+<li><strong>Ayudar a mejorar el conteo de repeticiones (solo si lo activas).</strong> Si activas «Ayuda a mejorar el conteo de repeticiones» (desactivado por defecto; te lo preguntamos la primera vez que nos dices si una serie se contó bien, y está en Ajustes → Privacidad), guardamos además tus respuestas sobre si una serie se contó bien (el número real, motivos rápidos y una nota opcional) y la grabación en bruto del movimiento de cada serie que haces (las lecturas del acelerómetro y del giroscopio antes de procesarlas, unos 0,4 MB por serie). Solo las usa el equipo de Wizelift, y solo para probar y mejorar el conteo de repeticiones y las métricas. Ni otros usuarios ni los entrenadores las ven nunca. Las series que hace un compañero en tu móvil no se graban. Si lo desactivas, no se envía nada más y las grabaciones se borran en un día.</li>
 <li><strong>Resultados calculados.</strong> Máximos estimados, perfiles carga-velocidad, fatiga, estado de forma («preparado / estable / recupera») y comparaciones (ver §9).</li>
 <li><strong>Tus sesiones.</strong> Nuestro sistema de inicio de sesión (Supabase Auth) registra, por cada dispositivo o navegador en el que tienes la sesión iniciada, cuándo empezó y cuándo se renovó por última vez la sesión, la <strong>dirección IP</strong> y la descripción del navegador o la app (<em>user agent</em>) desde la que se abrió. Los guarda mientras esa sesión siga abierta (ver §12).</li>
 <li><strong>Límites de intentos.</strong> Para frenar a quien prueba contraseñas o envía spam, el registro, el inicio de sesión, los formularios de la web y el pago de la tienda cuentan los intentos por IP. Para eso solo guardamos una <strong>huella irreversible</strong> (hash con clave secreta) de la IP, nunca la IP en claro, y la borramos a los 90 días.</li>
@@ -937,6 +948,11 @@
 <td>Registrar entrenos y calcular velocidad, cargas, máximos y planes</td>
 <td>Entrenamiento, sensores, sensación por serie (salvo dolor)</td>
 <td>Ejecución del contrato — art. 6.1.b</td>
+</tr>
+<tr>
+<td>Probar y mejorar el conteo de repeticiones y las métricas con series reales (solo si activas «Ayuda a mejorar el conteo de repeticiones»)</td>
+<td>Tus respuestas sobre si una serie se contó bien; la grabación en bruto del movimiento de cada serie que haces</td>
+<td>Tu consentimiento — art. 6.1.a. Puedes retirarlo cuando quieras en Ajustes → Privacidad</td>
 </tr>
 <tr>
 <td>Usar datos del cuerpo y de salud para ajustar cargas, comparar contigo mismo y valorar tu recuperación</td>
@@ -1236,6 +1252,10 @@
 <tr>
 <td>Datos de salud</td>
 <td>Mientras mantengas el consentimiento y la cuenta. Si retiras el consentimiento, puedes borrarlos al momento</td>
+</tr>
+<tr>
+<td>Respuestas sobre el conteo de repeticiones y grabaciones en bruto del movimiento (si activaste «Ayuda a mejorar el conteo de repeticiones»)</td>
+<td>Mientras mantengas el consentimiento y la serie. Si retiras el consentimiento, las grabaciones se borran de nuestros servidores en un día, y borramos también las copias que guardamos para probar el algoritmo. Borrar una serie o tu cuenta borra sus respuestas y su grabación</td>
 </tr>
 <tr>
 <td>Vínculos con entrenadores, lo que compartiste con cada uno y el registro de sus descargas</td>
