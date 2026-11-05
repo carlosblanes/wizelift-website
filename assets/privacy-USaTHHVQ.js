@@ -522,7 +522,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 </tr>
 <tr>
 <td>Open sessions (and the IP and device description recorded with each)</td>
-<td>There is <strong>no inactivity limit</strong>: you stay signed in on a device until you sign out there, delete the account, or we end the session for security. The access key the app holds expires every hour and is renewed automatically while the session is open</td>
+<td>A session ends after <strong>90 days without use</strong>: you stay signed in on a device until you sign out there, delete the account, do not open the app on it for 90 days, or we end the session for security. The access key the app holds expires every hour and is renewed automatically while the session is open</td>
 </tr>
 <tr>
 <td>Backups</td>
@@ -567,7 +567,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <h2 id="en-13">13. What is stored on your phone and in your browser</h2>
 <h3 id="en-13-1">In the app</h3>
 <ul>
-<li><strong>Your session</strong> is kept in the system's secure store (Keychain on iPhone, Keystore on Android). It has no inactivity limit (§12): it ends when you sign out or delete the account.</li>
+<li><strong>Your session</strong> is kept in the system's secure store (Keychain on iPhone, Keystore on Android). It ends after 90 days without use (§12), or when you sign out or delete the account.</li>
 <li>The app keeps <strong>a temporary copy</strong> of your data and of sets waiting to upload on your phone, so it works offline. That copy is deleted when you sign out or delete your account. Sets and set notes waiting to upload are kept on sign-out so you do not lose a workout (each with the account it belongs to, and sent only for that account); they are deleted when you delete your account. Set notes saved by older versions of the app, which did not record whose they were, are deleted at sign-out.</li>
 <li>The app also keeps a few small records on the phone: why a save failed and when the app was locked or opened (to diagnose lost sets), which workouts it already wrote to Apple Health or Health Connect, and the state of a health-data import. They are deleted when you delete your account (or uninstall the app). A switch that remembers you disconnected Health stays on the phone, holding no data, so the next account on that phone does not read your Health data.</li>
 <li><strong>Health / Health Connect readings</strong> are stored only on your phone (see §5) and deleted on sign-out.</li>
@@ -611,7 +611,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <h3 id="en-13-3">In the web app (wizelift.app)</h3>
 <p>The web app lets you (and coaches) use Wizelift from a computer, with the same account and the same rules as the phone app. It sets no cookies. It keeps in your browser's local storage:</p>
 <ul>
-<li><strong>Your session</strong> (key <code>wizelift-web-auth</code>), so you stay signed in. Like on the phone, it has no inactivity limit. Anyone who uses that browser profile while you are signed in can see your account, so <strong>sign out on shared computers</strong>. Signing out deletes the session and the plan choice from the browser; the display preferences stay until you clear your browser data.</li>
+<li><strong>Your session</strong> (key <code>wizelift-web-auth</code>), so you stay signed in. Like on the phone, it ends after 90 days without use. Anyone who uses that browser profile while you are signed in can see your account, so <strong>sign out on shared computers</strong>. Signing out deletes the session and the plan choice from the browser; the display preferences stay until you clear your browser data.</li>
 <li>Your display preferences (language, units, light or dark theme) and the plan page's "short on time" choice.</li>
 </ul>
 <p>The web app loads its code only from wizelift.app and talks only to our database provider (Supabase).</p>
@@ -1240,7 +1240,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 </tr>
 <tr>
 <td>Sesiones abiertas (y la IP y la descripción del dispositivo que se guardan con cada una)</td>
-<td><strong>No hay límite por inactividad</strong>: sigues con la sesión iniciada en un dispositivo hasta que la cierras en él, borras la cuenta o la cerramos nosotros por seguridad. La clave de acceso que guarda la app caduca cada hora y se renueva sola mientras la sesión esté abierta</td>
+<td>Una sesión termina tras <strong>90 días sin usarse</strong>: sigues con la sesión iniciada en un dispositivo hasta que la cierras en él, borras la cuenta, no abres la app en él durante 90 días o la cerramos nosotros por seguridad. La clave de acceso que guarda la app caduca cada hora y se renueva sola mientras la sesión esté abierta</td>
 </tr>
 <tr>
 <td>Copias de seguridad</td>
@@ -1285,7 +1285,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <h2 id="es-13">13. Lo que se guarda en tu móvil y en tu navegador</h2>
 <h3 id="es-13-1">En la app</h3>
 <ul>
-<li><strong>Tu sesión</strong> se guarda en el almacén seguro del sistema (Llavero en iPhone, Keystore en Android). No tiene límite por inactividad (§12): termina cuando cierras sesión o borras la cuenta.</li>
+<li><strong>Tu sesión</strong> se guarda en el almacén seguro del sistema (Llavero en iPhone, Keystore en Android). Termina tras 90 días sin usarse (§12), o cuando cierras sesión o borras la cuenta.</li>
 <li>La app guarda en tu móvil <strong>una copia temporal</strong> de tus datos y las series pendientes de subir, para que funcione sin conexión. Esa copia se borra al cerrar sesión o al borrar la cuenta. Las series y las notas de series pendientes de subir se conservan al cerrar sesión para no perder un entreno (cada una con la cuenta a la que pertenece, y solo se envían para esa cuenta); se borran al borrar la cuenta. Las notas de series guardadas por versiones antiguas de la app, que no apuntaban de quién eran, se borran al cerrar sesión.</li>
 <li>La app guarda también algunos registros pequeños en el móvil: por qué falló un guardado y cuándo se bloqueó o abrió la app (para diagnosticar series perdidas), qué entrenos ya escribió en Salud de Apple o Health Connect y el estado de una importación de datos de salud. Se borran al borrar la cuenta (o al desinstalar la app). Un interruptor que recuerda que desconectaste Salud se queda en el móvil, sin ningún dato, para que la siguiente cuenta en ese móvil no lea tus datos de Salud.</li>
 <li>Las <strong>lecturas de Salud / Health Connect</strong> se guardan solo en tu móvil (ver §5) y se borran al cerrar sesión.</li>
@@ -1329,7 +1329,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-DPLftzt
 <h3 id="es-13-3">En la app web (wizelift.app)</h3>
 <p>La app web te permite (a ti y a los entrenadores) usar Wizelift desde un ordenador, con la misma cuenta y las mismas reglas que la app del móvil. No instala cookies. Guarda en el almacenamiento local de tu navegador:</p>
 <ul>
-<li><strong>Tu sesión</strong> (clave <code>wizelift-web-auth</code>), para que sigas con la sesión iniciada. Como en el móvil, no tiene límite por inactividad. Cualquiera que use ese perfil del navegador mientras tienes la sesión iniciada puede ver tu cuenta, así que <strong>cierra sesión en ordenadores compartidos</strong>. Al cerrar sesión se borran del navegador la sesión y la elección del plan; las preferencias de visualización se quedan hasta que borres los datos del navegador.</li>
+<li><strong>Tu sesión</strong> (clave <code>wizelift-web-auth</code>), para que sigas con la sesión iniciada. Como en el móvil, termina tras 90 días sin usarse. Cualquiera que use ese perfil del navegador mientras tienes la sesión iniciada puede ver tu cuenta, así que <strong>cierra sesión en ordenadores compartidos</strong>. Al cerrar sesión se borran del navegador la sesión y la elección del plan; las preferencias de visualización se quedan hasta que borres los datos del navegador.</li>
 <li>Tus preferencias de visualización (idioma, unidades, tema claro u oscuro) y la elección «poco tiempo» de la página del plan.</li>
 </ul>
 <p>La app web solo carga código desde wizelift.app y solo se comunica con nuestro proveedor de base de datos (Supabase).</p>
