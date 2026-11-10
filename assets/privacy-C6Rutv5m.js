@@ -412,7 +412,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-qcAxisZ
 </tr>
 <tr>
 <td><strong>Vercel Inc.</strong></td>
-<td>IP and technical data of visitors to our previous web address (powr-ebon.vercel.app), which older versions of the app and old links still open</td>
+<td>IP and technical data of visitors to our previous web address, which older versions of the app and old links still open</td>
 <td>Host the previous web address until older app versions are gone</td>
 <td>Processor</td>
 <td>US — <strong>EU-US Data Privacy Framework</strong></td>
@@ -1144,7 +1144,7 @@ import{d as e,f as t,g as n,h as r,p as i,t as a,u as o}from"./Providers-qcAxisZ
 </tr>
 <tr>
 <td><strong>Vercel Inc.</strong></td>
-<td>IP y datos técnicos de quien visita nuestra dirección web anterior (powr-ebon.vercel.app), que las versiones antiguas de la app y los enlaces antiguos todavía abren</td>
+<td>IP y datos técnicos de quien visita nuestra dirección web anterior, que las versiones antiguas de la app y los enlaces antiguos todavía abren</td>
 <td>Mantener la dirección anterior hasta que desaparezcan las versiones antiguas de la app</td>
 <td>Encargado</td>
 <td>EE. UU. — <strong>Marco de Privacidad de Datos UE-EE. UU.</strong></td>
