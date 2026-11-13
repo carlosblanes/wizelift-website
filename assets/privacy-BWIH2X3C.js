@@ -1,4 +1,4 @@
-import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-C0qm79BG.js";import{t as s}from"./Layout-BnXyPkoH.js";import{t as c}from"./LegalDoc-CUCTcV2z.js";var l=e(),u=r(),d=`  <p class="legal-lede">This policy exists in English and Spanish. If they differ, the Spanish version prevails.</p>
+import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-D_txK4Co.js";import{t as s}from"./Layout-CIPPgsng.js";import{t as c}from"./LegalDoc-B_K__rLP.js";var l=e(),u=r(),d=`  <p class="legal-lede">This policy exists in English and Spanish. If they differ, the Spanish version prevails.</p>
   <nav class="legal-toc" aria-label="Contents">
     <h2>Contents</h2>
     <ol>
@@ -617,7 +617,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-C0qm79B
 <tr>
 <td><code>wizelift_last_order</code></td>
 <td>Show you the order confirmation page: order number, total, payment method and the email you entered</td>
-<td>Until you place another order or clear your browser data</td>
+<td>One hour after the order</td>
 </tr>
 </tbody>
 </table></div>
@@ -1349,7 +1349,7 @@ import{_ as e,d as t,f as n,g as r,m as i,p as a,t as o}from"./Providers-C0qm79B
 <tr>
 <td><code>wizelift_last_order</code></td>
 <td>Mostrarte la página de confirmación del pedido: número de pedido, total, forma de pago y el email que escribiste</td>
-<td>Hasta que hagas otro pedido o borres los datos del navegador</td>
+<td>Una hora después del pedido</td>
 </tr>
 </tbody>
 </table></div>
