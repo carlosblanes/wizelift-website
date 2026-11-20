@@ -1,0 +1,1 @@
+var e=`https://apps.apple.com/es/app/wizelift/id6831231648`;function t(t){return t===`es`?e:`${e}?l=en-GB`}function n(e){return{src:`/assets/img/badges/app-store-badge-${e===`es`?`es`:`en`}.svg`,width:119.66407,height:40}}export{t as n,n as t};
